@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v18",
   "odoo_major": 18,
-  "version": "3.29.3",
-  "tag": "v18-3.29.3",
-  "published_at": "2026-06-04T11:18:40Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v18-3.29.3",
-  "body": "## [3.29.3] - 2026-06-04",
+  "version": "3.29.4",
+  "tag": "v18-3.29.4",
+  "published_at": "2026-06-04T11:58:26Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v18-3.29.4",
+  "body": "## [3.29.4] - 2026-06-04",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo18-3.29.3-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v18-3.29.3/flutter-pos-odoo18-3.29.3-windows-x64.zip",
-      "sha256": "d50c1b68e8f151886e7b7f5134f3f510eac270726ef743345fda400f484be372"
+      "name": "flutter-pos-odoo18-3.29.4-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v18-3.29.4/flutter-pos-odoo18-3.29.4-windows-x64.zip",
+      "sha256": "f22eae5b06953a3cc5542904a978120f19b32b413cbd99a1094d55396b404778"
     },
     "linux": {
-      "name": "flutter-pos-odoo18-3.29.3-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v18-3.29.3/flutter-pos-odoo18-3.29.3-linux-x64.tar.gz",
-      "sha256": "8fd9ca3e60569b96d39c89e53c29673c24a30b4a64dbe8ac371d3e98d9256c5e"
+      "name": "flutter-pos-odoo18-3.29.4-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v18-3.29.4/flutter-pos-odoo18-3.29.4-linux-x64.tar.gz",
+      "sha256": "ba14dfaec1378483346bc1432dd5d6cedc7fe82215c89c80a68b9ad85ece1ca6"
     },
     "android": {
-      "name": "flutter-pos-odoo18-3.29.3-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v18-3.29.3/flutter-pos-odoo18-3.29.3-android-arm64-v8a.apk",
-      "sha256": "851a43d161a32288dc4f3d5f9258ba4af528291578ee132078f00ae75b657030"
+      "name": "flutter-pos-odoo18-3.29.4-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v18-3.29.4/flutter-pos-odoo18-3.29.4-android-arm64-v8a.apk",
+      "sha256": "70b30313d04532249b9175870065e714716f84fc308c527feb9a3532d754415b"
     }
   }
 }
