@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.23.8",
-  "tag": "v19-3.23.8",
-  "published_at": "2026-06-04T12:18:11Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.23.8",
-  "body": "## [3.23.8] - 2026-06-04\n\n### Bug Fixes\n\n- invalidate providers on each check + full SVC log tracing",
+  "version": "3.24.2",
+  "tag": "v19-3.24.2",
+  "published_at": "2026-06-07T07:22:38Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.24.2",
+  "body": "## [3.24.2] - 2026-06-07\n\n### Bug Fixes\n\n- add missing setAppUpdateServiceLogSink and rounding param",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.23.8-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.23.8/flutter-pos-odoo19-3.23.8-windows-x64.zip",
-      "sha256": "d3724e27d41d8f835bbca3e7fba4af0fcb92f845c7ef108525cd907b0b2693f1"
+      "name": "flutter-pos-odoo19-3.24.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.24.2/flutter-pos-odoo19-3.24.2-windows-x64.zip",
+      "sha256": "57c9063660bd1714ba72be497be1dbc48e09bcc2cd18d6fc1235d15308141b39"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.23.8-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.23.8/flutter-pos-odoo19-3.23.8-linux-x64.tar.gz",
-      "sha256": "6e7433c9c5bc6038d3f28a37553e71ec6d745db9c68554f9c8743269995ed3a0"
+      "name": "flutter-pos-odoo19-3.24.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.24.2/flutter-pos-odoo19-3.24.2-linux-x64.tar.gz",
+      "sha256": "0349fe015138434504f79e01c4713048f02c435737ece9c06786b3a7b9704d56"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.23.8-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.23.8/flutter-pos-odoo19-3.23.8-android-arm64-v8a.apk",
-      "sha256": "ce1247375dd4e4772956a936fdf82fe0c831d4ffb738d1cdec2cd8fb0dc65898"
+      "name": "flutter-pos-odoo19-3.24.2-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.24.2/flutter-pos-odoo19-3.24.2-android-arm64-v8a.apk",
+      "sha256": "b40ff68f62c9ce6f8ec01bd620704c698cabd861297eb1c51ba91b89f596b802"
     }
   }
 }
