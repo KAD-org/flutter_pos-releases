@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.33.0",
-  "tag": "v19-3.33.0",
-  "published_at": "2026-06-16T08:29:16Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.33.0",
-  "body": "## [3.33.0] - 2026-06-16\n\n### Features\n\n- add functionality to remove deleted voucher and gift card payments from providers\n- enhance payment split dialog to support methodId for pending payments and add delete functionality\n- refine payment handling in gift card activation and improve receipt formatting\n- add localization for return change payment and update gift card payment error handling\n- enhance zero-price product addition with return mode handling and salesperson selection\n\n### Other Changes\n\n- clean up gift card activation dialog input handling and remove decimal support",
+  "version": "3.34.0",
+  "tag": "v19-3.34.0",
+  "published_at": "2026-06-16T11:04:11Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.34.0",
+  "body": "## [3.34.0] - 2026-06-16\n\n### Features\n\n- add customizable Enter button label in universal numpad widget\n- preserve local default customer settings when syncing with server\n- localize strings in label printer and orders screens\n- add logo URL support in various components and enhance receipt printing with company logo\n\n### Bug Fixes\n\n- replace corrupted placeholder character in installment numpad dialog\n- clear pending payment state when starting a refund order\n\n### Other Changes\n\n- Add localization for \"Apply these values to the current template?\" in Arabic, English, and Hebrew",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.33.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.33.0/flutter-pos-odoo19-3.33.0-windows-x64.zip",
-      "sha256": "93a17a12fdaa39e77cd2bcc8391d01b9a9f4909f576bd106a8ad0cc2488d7550"
+      "name": "flutter-pos-odoo19-3.34.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.34.0/flutter-pos-odoo19-3.34.0-windows-x64.zip",
+      "sha256": "8daedc5478dffe021b178d7cd8c5ffa6a5ea0e03170cd2415022eb1e7188e4cb"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.33.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.33.0/flutter-pos-odoo19-3.33.0-linux-x64.tar.gz",
-      "sha256": "a41e545c0ee29310f8077ad0b62cbc388baaf81ccb4596fc67ff550fb093b9a7"
+      "name": "flutter-pos-odoo19-3.34.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.34.0/flutter-pos-odoo19-3.34.0-linux-x64.tar.gz",
+      "sha256": "a6949e9bbbad7d99d51e3a7b6e29cde78cb868aa0fc07eea63c9d52f76f727db"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.33.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.33.0/flutter-pos-odoo19-3.33.0-android-arm64-v8a.apk",
-      "sha256": "c734df6ee032f1dcd2453b781a10e4028d2d149221d4dbc3ef9960fd6fabfc5e"
+      "name": "flutter-pos-odoo19-3.34.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.34.0/flutter-pos-odoo19-3.34.0-android-arm64-v8a.apk",
+      "sha256": "70a49ebcef88c49576205978887f172187d2124dbc821666ccc121a35b443219"
     }
   }
 }
