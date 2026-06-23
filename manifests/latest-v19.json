@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.34.5",
-  "tag": "v19-3.34.5",
-  "published_at": "2026-06-17T12:06:50Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.34.5",
-  "body": "## [3.34.5] - 2026-06-17\n\n### Other Changes\n\n- Remove unused printer-related localization strings from Arabic, English, and Hebrew localization files.\n- update schema version to 78 and add can_access_label_printer column to migrations",
+  "version": "3.35.0",
+  "tag": "v19-3.35.0",
+  "published_at": "2026-06-23T14:03:20Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.35.0",
+  "body": "## [3.35.0] - 2026-06-23\n\n### Features\n\n- implement auto-sync for orders to Odoo during payment completion\n- Add general item settings and improve customer logging\n- add initial tab provider for Phone POS navigation and update cart handling\n- improve mobile layout handling and selection behavior in OrdersScreen\n- enhance receipt handling with auto-print and SMS/email options in settings\n- update config handling to disable ACK for internal transactions\n- replace Icon with Text for dynamic MaterialIcons rendering\n- enhance Agamento service with detailed logging and ACK handling\n- implement multi-type machine payment with credit terms selection\n- enhance Agamento plugin with improved command handling and service connection management\n- add phone mode support in DevicesHubScreen and adjust settings visibility for mobile\n- update bottom navigation to include menu button and adjust tab indexing\n- implement dismissible cart items with quantity controls and product image badge\n- enhance phone POS screen with menu button and scaffold key\n- Enhance Nayax payment handling with terminal readiness checks and retry logic\n- Add Agamento SDK integration for internal and external Nayax payments\n- Implement phone-optimized POS screen with tab navigation\n\n### Bug Fixes\n\n- update localization strings for cash counting and tabs in multiple languages\n\n### Other Changes\n\n- improve code readability and deduplicate payment methods\n- Refactor code structure for improved readability and maintainability",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.34.5-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.34.5/flutter-pos-odoo19-3.34.5-windows-x64.zip",
-      "sha256": "239e26b20ff28d4b5326eab5f9ffed2934cdd91175c9cc9587b1a104e1c57c6f"
+      "name": "flutter-pos-odoo19-3.35.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.35.0/flutter-pos-odoo19-3.35.0-windows-x64.zip",
+      "sha256": "c41a4b5c5cf7a7451f8aba316ffa62d9a8d3fa2ad26e58b3c4437d5255655e09"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.34.5-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.34.5/flutter-pos-odoo19-3.34.5-linux-x64.tar.gz",
-      "sha256": "db4af9b02e2c733e24c54e0a4cf05d944a642f0d1974daa40c58c4d426f7f86c"
+      "name": "flutter-pos-odoo19-3.35.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.35.0/flutter-pos-odoo19-3.35.0-linux-x64.tar.gz",
+      "sha256": "6e25a542f08f9dffd890858a861ddd6797c50587914be95e0904b65c8b7a7ca2"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.34.5-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.34.5/flutter-pos-odoo19-3.34.5-android-arm64-v8a.apk",
-      "sha256": "4e93f1ffd0a458f358bf138ed9e48e9717032f5d349d9e9061dace4f7859cfa4"
+      "name": "flutter-pos-odoo19-3.35.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.35.0/flutter-pos-odoo19-3.35.0-android-arm64-v8a.apk",
+      "sha256": "4a68d3d8491ff840a4cf18341cc955bc99aa835a03d3d2edcf59f16ab65d9b8c"
     }
   }
 }
