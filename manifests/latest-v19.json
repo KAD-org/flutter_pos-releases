@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.35.0",
-  "tag": "v19-3.35.0",
-  "published_at": "2026-06-23T14:03:20Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.35.0",
-  "body": "## [3.35.0] - 2026-06-23\n\n### Features\n\n- implement auto-sync for orders to Odoo during payment completion\n- Add general item settings and improve customer logging\n- add initial tab provider for Phone POS navigation and update cart handling\n- improve mobile layout handling and selection behavior in OrdersScreen\n- enhance receipt handling with auto-print and SMS/email options in settings\n- update config handling to disable ACK for internal transactions\n- replace Icon with Text for dynamic MaterialIcons rendering\n- enhance Agamento service with detailed logging and ACK handling\n- implement multi-type machine payment with credit terms selection\n- enhance Agamento plugin with improved command handling and service connection management\n- add phone mode support in DevicesHubScreen and adjust settings visibility for mobile\n- update bottom navigation to include menu button and adjust tab indexing\n- implement dismissible cart items with quantity controls and product image badge\n- enhance phone POS screen with menu button and scaffold key\n- Enhance Nayax payment handling with terminal readiness checks and retry logic\n- Add Agamento SDK integration for internal and external Nayax payments\n- Implement phone-optimized POS screen with tab navigation\n\n### Bug Fixes\n\n- update localization strings for cash counting and tabs in multiple languages\n\n### Other Changes\n\n- improve code readability and deduplicate payment methods\n- Refactor code structure for improved readability and maintainability",
+  "version": "3.36.0",
+  "tag": "v19-3.36.0",
+  "published_at": "2026-06-23T17:44:17Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.36.0",
+  "body": "## [3.36.0] - 2026-06-23\n\n### Features\n\n- add new credit terms and department sale labels in Arabic, English, and Hebrew\n- add new credit terms and department sale labels in Arabic and English\n- add support for voucher and gift card payment methods\n\n### Other Changes\n\n- improve code formatting and readability in various files",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.35.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.35.0/flutter-pos-odoo19-3.35.0-windows-x64.zip",
-      "sha256": "c41a4b5c5cf7a7451f8aba316ffa62d9a8d3fa2ad26e58b3c4437d5255655e09"
+      "name": "flutter-pos-odoo19-3.36.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.36.0/flutter-pos-odoo19-3.36.0-windows-x64.zip",
+      "sha256": "c5c520e60f90c6ec6aa48d8bd313a424ff1237872024dbed3187a2d880ea474e"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.35.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.35.0/flutter-pos-odoo19-3.35.0-linux-x64.tar.gz",
-      "sha256": "6e25a542f08f9dffd890858a861ddd6797c50587914be95e0904b65c8b7a7ca2"
+      "name": "flutter-pos-odoo19-3.36.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.36.0/flutter-pos-odoo19-3.36.0-linux-x64.tar.gz",
+      "sha256": "6c3e5cc28164a4f669b6bb75c29d315b37769c6aa471e83f2e085b566cb2c871"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.35.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.35.0/flutter-pos-odoo19-3.35.0-android-arm64-v8a.apk",
-      "sha256": "4a68d3d8491ff840a4cf18341cc955bc99aa835a03d3d2edcf59f16ab65d9b8c"
+      "name": "flutter-pos-odoo19-3.36.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.36.0/flutter-pos-odoo19-3.36.0-android-arm64-v8a.apk",
+      "sha256": "0a13796e4c431fd73361a07c031b5cc7127a0f6519b44d483c1865a22b5e731f"
     }
   }
 }
