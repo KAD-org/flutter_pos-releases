@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.37.0",
-  "tag": "v19-3.37.0",
-  "published_at": "2026-06-24T14:21:28Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.37.0",
-  "body": "## [3.37.0] - 2026-06-24\n\n### Features\n\n- add place on scale dialog for weighable products\n\n### Other Changes\n\n- simplify dialog builder and improve code formatting",
+  "version": "3.38.0",
+  "tag": "v19-3.38.0",
+  "published_at": "2026-06-25T07:29:04Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.38.0",
+  "body": "## [3.38.0] - 2026-06-25\n\n### Features\n\n- add auto-detect feature for stable weight confirmation\n\n### Other Changes\n\n- improve code formatting and readability in various files",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.37.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.37.0/flutter-pos-odoo19-3.37.0-windows-x64.zip",
-      "sha256": "5257368eca5188c751de1cdc98c0875b173a8c403d3f941d103da55c5690ac01"
+      "name": "flutter-pos-odoo19-3.38.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.38.0/flutter-pos-odoo19-3.38.0-windows-x64.zip",
+      "sha256": "05a791b65fe802592e113a524622666551f10388f7a65336c6ce326c7fc98e5e"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.37.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.37.0/flutter-pos-odoo19-3.37.0-linux-x64.tar.gz",
-      "sha256": "9ec4dbdbf3c13005f4f9117f585e1d96f8064ab84b563a1dcae56a74c60aee58"
+      "name": "flutter-pos-odoo19-3.38.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.38.0/flutter-pos-odoo19-3.38.0-linux-x64.tar.gz",
+      "sha256": "69ccbaf43d3ee27af79374640f7a911a2dda9351ad3013dc1cc0a34a1c06b459"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.37.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.37.0/flutter-pos-odoo19-3.37.0-android-arm64-v8a.apk",
-      "sha256": "fc296b25d85a3db4db46b9a89df32096f501afd3a6fde3c9734790e1cbd2defc"
+      "name": "flutter-pos-odoo19-3.38.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.38.0/flutter-pos-odoo19-3.38.0-android-arm64-v8a.apk",
+      "sha256": "c480b30e6a6471c4d07bc3d4f93d3abfc96132e4c5fff2698a2795a5c645be59"
     }
   }
 }
