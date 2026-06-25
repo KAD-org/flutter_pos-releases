@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.40.0",
-  "tag": "v19-3.40.0",
-  "published_at": "2026-06-25T13:40:09Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.40.0",
-  "body": "## [3.40.0] - 2026-06-25\n\n### Features\n\n- prevent double pop during dialog closure",
+  "version": "3.41.0",
+  "tag": "v19-3.41.0",
+  "published_at": "2026-06-25T13:52:08Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.41.0",
+  "body": "## [3.41.0] - 2026-06-25\n\n### Features\n\n- enhance SSL handling for Windows HttpClient",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.40.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.40.0/flutter-pos-odoo19-3.40.0-windows-x64.zip",
-      "sha256": "58ce94f09c87916ae4bb15cb669773eb1f9810116fc36da073a02e5bc1c3e4f0"
+      "name": "flutter-pos-odoo19-3.41.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.41.0/flutter-pos-odoo19-3.41.0-windows-x64.zip",
+      "sha256": "cc214e5086cde767daa5ee3c790e3005341eca163baf6e24605b5ee84cfc2f5e"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.40.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.40.0/flutter-pos-odoo19-3.40.0-linux-x64.tar.gz",
-      "sha256": "b461136f70a78bca4f729b6686adb011af505e0f52a9450baf56033a1bfc1fd1"
+      "name": "flutter-pos-odoo19-3.41.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.41.0/flutter-pos-odoo19-3.41.0-linux-x64.tar.gz",
+      "sha256": "a8bfeac806ed876281e3206e4ae7835c96aea9252ab5ba540756d7ceb6525008"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.40.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.40.0/flutter-pos-odoo19-3.40.0-android-arm64-v8a.apk",
-      "sha256": "e005cacd368902639132a038956b7254c0031d31a288cd8b4acdb8015508d7e5"
+      "name": "flutter-pos-odoo19-3.41.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.41.0/flutter-pos-odoo19-3.41.0-android-arm64-v8a.apk",
+      "sha256": "2f2fa3b188312d905cb1b01782088119745a5e4fe9fee57473a2107bea8be8c9"
     }
   }
 }
