@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.39.0",
-  "tag": "v19-3.39.0",
-  "published_at": "2026-06-25T12:06:39Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.39.0",
-  "body": "## [3.39.0] - 2026-06-25\n\n### Features\n\n- add option to show second company name on receipts\n- implement crash detection service for app stability\n- prevent swiping and deletion for refund lines in cart feat(printer): add session ID handling for printer requests chore(printer_providers): pass session ID getter to PrinterService",
+  "version": "3.40.0",
+  "tag": "v19-3.40.0",
+  "published_at": "2026-06-25T13:40:09Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.40.0",
+  "body": "## [3.40.0] - 2026-06-25\n\n### Features\n\n- prevent double pop during dialog closure",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.39.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.39.0/flutter-pos-odoo19-3.39.0-windows-x64.zip",
-      "sha256": "80b0cd85bb04939147d5dcfc242e70550b4e30d221a7257ed8b51df62c6db827"
+      "name": "flutter-pos-odoo19-3.40.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.40.0/flutter-pos-odoo19-3.40.0-windows-x64.zip",
+      "sha256": "58ce94f09c87916ae4bb15cb669773eb1f9810116fc36da073a02e5bc1c3e4f0"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.39.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.39.0/flutter-pos-odoo19-3.39.0-linux-x64.tar.gz",
-      "sha256": "62f45306ccc3f899567ff1b8c005870855d7ab7b088a930959394b01874d1e7f"
+      "name": "flutter-pos-odoo19-3.40.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.40.0/flutter-pos-odoo19-3.40.0-linux-x64.tar.gz",
+      "sha256": "b461136f70a78bca4f729b6686adb011af505e0f52a9450baf56033a1bfc1fd1"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.39.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.39.0/flutter-pos-odoo19-3.39.0-android-arm64-v8a.apk",
-      "sha256": "c26aac2984e80acf880cfc4283eea8f7834e919d610308ea8f8aa69c84ca1c2f"
+      "name": "flutter-pos-odoo19-3.40.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.40.0/flutter-pos-odoo19-3.40.0-android-arm64-v8a.apk",
+      "sha256": "e005cacd368902639132a038956b7254c0031d31a288cd8b4acdb8015508d7e5"
     }
   }
 }
