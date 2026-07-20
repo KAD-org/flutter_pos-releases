@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.52.0",
-  "tag": "v19-3.52.0",
-  "published_at": "2026-07-20T14:58:07Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.52.0",
-  "body": "## [3.52.0] - 2026-07-20\n\n### Features\n\n- add isService and repairingItem fields to ProductDto and related components\n\n### Bug Fixes\n\n- enhance repair order barcode validation to accommodate varying warehouse codes\n- align version format and repair database schema\n\n### Other Changes\n\n- Add VAT sync diagnostics\n- Prevent invoice sync from succeeding as order\n- Use checkout completion time for synced orders",
+  "version": "3.52.1",
+  "tag": "v19-3.52.1",
+  "published_at": "2026-07-20T15:50:05Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.52.1",
+  "body": "## [3.52.1] - 2026-07-20\n\n### Bug Fixes\n\n- repair product schema migration",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.52.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.0/flutter-pos-odoo19-3.52.0-windows-x64.zip",
-      "sha256": "bfba6c77bc89dbaac8f3aa353c61aca26fa3b8242fd0240bf3c8aa571345ac52"
+      "name": "flutter-pos-odoo19-3.52.1-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.1/flutter-pos-odoo19-3.52.1-windows-x64.zip",
+      "sha256": "2f33ae49e92d7d5cb31d3da4f39d5997b7e8cf1f81b03ef3c8aba67d08154daf"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.52.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.0/flutter-pos-odoo19-3.52.0-linux-x64.tar.gz",
-      "sha256": "80d3cd63faf01d703c75b0d5bddd3d8882b16712bbf43a92fbd7d425758e7fae"
+      "name": "flutter-pos-odoo19-3.52.1-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.1/flutter-pos-odoo19-3.52.1-linux-x64.tar.gz",
+      "sha256": "409bf33433e4c58275f6f3ce91c8e511babcfd6c0ee09f002e9d32ec5877cb24"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.52.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.0/flutter-pos-odoo19-3.52.0-android-arm64-v8a.apk",
-      "sha256": "83b0197d1c7a3eb9a1bbdd7022524e4f5b66bd46356be372c5956b85083e98ba"
+      "name": "flutter-pos-odoo19-3.52.1-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.1/flutter-pos-odoo19-3.52.1-android-arm64-v8a.apk",
+      "sha256": "7d7da8ad304a10521cfbba762056bff02c69e4dcb676f2eacf9504872aaf3f36"
     }
   }
 }
