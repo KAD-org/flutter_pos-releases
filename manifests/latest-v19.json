@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.52.1",
-  "tag": "v19-3.52.1",
-  "published_at": "2026-07-20T15:50:05Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.52.1",
-  "body": "## [3.52.1] - 2026-07-20\n\n### Bug Fixes\n\n- repair product schema migration",
+  "version": "3.53.0",
+  "tag": "v19-3.53.0",
+  "published_at": "2026-07-21T09:39:54Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.53.0",
+  "body": "## [3.53.0] - 2026-07-21\n\n### Features\n\n- update repair order handling and localization for new states\n- add multipass card swipe functionality to payment dialog\n\n### Other Changes\n\n- Fix gift card search and invoice metadata handling\n- Handle expired Odoo sessions with auth retry",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.52.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.1/flutter-pos-odoo19-3.52.1-windows-x64.zip",
-      "sha256": "2f33ae49e92d7d5cb31d3da4f39d5997b7e8cf1f81b03ef3c8aba67d08154daf"
+      "name": "flutter-pos-odoo19-3.53.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.53.0/flutter-pos-odoo19-3.53.0-windows-x64.zip",
+      "sha256": "78cdbf67e8c28e800fc2337e8f2d982568fd07f8097a3b46dd998e92fb2f4b79"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.52.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.1/flutter-pos-odoo19-3.52.1-linux-x64.tar.gz",
-      "sha256": "409bf33433e4c58275f6f3ce91c8e511babcfd6c0ee09f002e9d32ec5877cb24"
+      "name": "flutter-pos-odoo19-3.53.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.53.0/flutter-pos-odoo19-3.53.0-linux-x64.tar.gz",
+      "sha256": "bdcf990161eeb6f37b8e1c12f93052a2717f6f761462b658c57e322011ff41aa"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.52.1-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.52.1/flutter-pos-odoo19-3.52.1-android-arm64-v8a.apk",
-      "sha256": "7d7da8ad304a10521cfbba762056bff02c69e4dcb676f2eacf9504872aaf3f36"
+      "name": "flutter-pos-odoo19-3.53.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.53.0/flutter-pos-odoo19-3.53.0-android-arm64-v8a.apk",
+      "sha256": "4eceaa4761be6513889cad8f22de962758e9503457871af575e5cf3bd3c8784c"
     }
   }
 }
