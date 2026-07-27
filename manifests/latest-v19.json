@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.56.0",
-  "tag": "v19-3.56.0",
-  "published_at": "2026-07-23T14:14:29Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.56.0",
-  "body": "## [3.56.0] - 2026-07-23\n\n### Features\n\n- prevent discounts on repair-related lines across cart functionalities\n- enhance PayTag POS functionality and clean up code - Add support for guest checkout in KioskPhoneLookupStatus - Improve handling of PayTag cart actions and item removal - Update .gitignore to exclude build artifacts - Refactor KioskCustomerLookupService to streamline customer lookup - Adjust UI components to reflect PayTag-specific behaviors\n\n### Bug Fixes\n\n- enhance refund handling and UI updates across multiple components\n- prevent discounts on orders with repair items",
+  "version": "3.56.1",
+  "tag": "v19-3.56.1",
+  "published_at": "2026-07-27T07:39:58Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.56.1",
+  "body": "## [3.56.1] - 2026-07-27\n\n### Bug Fixes\n\n- add generic error messages for customer creation and update failures in localization files\n- improve error handling for customer creation and update processes\n\n### Other Changes\n\n- Use grocery basket for gas station cart\n- Fix gas station layout flex sizing\n- update flutter_pos_api submodule",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.56.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.56.0/flutter-pos-odoo19-3.56.0-windows-x64.zip",
-      "sha256": "dd55464ec1297690d8c024483d9564cbeb24d8b1cbbf2e08e55985651be173ab"
+      "name": "flutter-pos-odoo19-3.56.1-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.56.1/flutter-pos-odoo19-3.56.1-windows-x64.zip",
+      "sha256": "0f51a7a29c2c1654e93f79a7d55a609fb01fde926720d36c2e53664a5c6e8ba8"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.56.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.56.0/flutter-pos-odoo19-3.56.0-linux-x64.tar.gz",
-      "sha256": "7e798d928b801dd73e3fe976d90a1315123c21116872aef4348b0b7c2194b072"
+      "name": "flutter-pos-odoo19-3.56.1-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.56.1/flutter-pos-odoo19-3.56.1-linux-x64.tar.gz",
+      "sha256": "87ae91e33107e1ad8a05e0df0a6335718684f8fe31af4dba84dfe2b15dffdc18"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.56.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.56.0/flutter-pos-odoo19-3.56.0-android-arm64-v8a.apk",
-      "sha256": "50c9ca6c27d256b4884a5100c98e3a6a363db70ba503e5d1824c23880f0e37d6"
+      "name": "flutter-pos-odoo19-3.56.1-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.56.1/flutter-pos-odoo19-3.56.1-android-arm64-v8a.apk",
+      "sha256": "e0c2419cd357954bc28943e0c695f8f5e901a75b1d622b9de941e14a38370fd2"
     }
   }
 }
