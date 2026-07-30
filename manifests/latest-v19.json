@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.58.2",
-  "tag": "v19-3.58.2",
-  "published_at": "2026-07-29T14:59:21Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.58.2",
-  "body": "## [3.58.2] - 2026-07-29\n\n### Other Changes\n\n- Add multipass error messages for insufficient budget and no amount charged\n- Add multipass insufficient budget warning feature with localization support",
+  "version": "3.58.4",
+  "tag": "v19-3.58.4",
+  "published_at": "2026-07-30T11:50:40Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.58.4",
+  "body": "## [3.58.4] - 2026-07-30\n\n### Bug Fixes\n\n- enhance budget handling in multipass dialogs\n- update required addon version to 19.0.3.58.3 and increment app version to 3.58.3\n- preserve quick customer selection\n- preserve general item prices on customer change\n\n### Other Changes\n\n- Implement change rounding adjustments and enhance payment matching logic for multi-currency transactions\n- Add localized error message for no amount charged in multipass payment\n- Refactor MultipassPaymentDialog for improved readability and error handling\n- Enhance currency handling and payment processing logic\n- Remove multipass insufficient budget confirmation feature and related localization keys",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.58.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.2/flutter-pos-odoo19-3.58.2-windows-x64.zip",
-      "sha256": "003a449629fd1c5591439be94ddb0d975f855088816447140f8f9599e8d6113f"
+      "name": "flutter-pos-odoo19-3.58.4-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.4/flutter-pos-odoo19-3.58.4-windows-x64.zip",
+      "sha256": "e0e4fa23a3af26e1d7914b7285712a1e555989efeadc12604585eef5a83d271f"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.58.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.2/flutter-pos-odoo19-3.58.2-linux-x64.tar.gz",
-      "sha256": "bc06b9058c97ae33c806d59a5d168dff8d0ca260d10ee00080798e4ca28ee4ae"
+      "name": "flutter-pos-odoo19-3.58.4-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.4/flutter-pos-odoo19-3.58.4-linux-x64.tar.gz",
+      "sha256": "60be0ab58d7da32855c7068b12f9fb6fbbebfda1ee4716993215023e5a4e02c7"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.58.2-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.2/flutter-pos-odoo19-3.58.2-android-arm64-v8a.apk",
-      "sha256": "24eb565aa5aea6e7307fc4aa67901a3fcd8b93bbdf1ca26a47b2ad59a830dac9"
+      "name": "flutter-pos-odoo19-3.58.4-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.4/flutter-pos-odoo19-3.58.4-android-arm64-v8a.apk",
+      "sha256": "ff123baca96944a1252cd6e8f53df2fd290462834082ae2839ddd58a73bb2e74"
     }
   }
 }
