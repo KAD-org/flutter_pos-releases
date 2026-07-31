@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.58.5",
-  "tag": "v19-3.58.5",
-  "published_at": "2026-07-30T13:49:09Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.58.5",
-  "body": "## [3.58.5] - 2026-07-30",
+  "version": "3.58.6",
+  "tag": "v19-3.58.6",
+  "published_at": "2026-07-31T16:07:02Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.58.6",
+  "body": "## [3.58.6] - 2026-07-31\n\n### Bug Fixes\n\n- exclude cash rounding from non-cash effective total calculations\n- adjust rounding logic for multipass and gift card payments\n\n### Other Changes\n\n- Fix desktop hot restart recovery",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.58.5-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.5/flutter-pos-odoo19-3.58.5-windows-x64.zip",
-      "sha256": "5054662fd1d3ccaf7cc00f15542070462438a88d550971f95c6e008519405cca"
+      "name": "flutter-pos-odoo19-3.58.6-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.6/flutter-pos-odoo19-3.58.6-windows-x64.zip",
+      "sha256": "a63e25b410401f8eb705f0d2e51850a0a7b9252aba7e6c61cdf152cffb16cdf6"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.58.5-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.5/flutter-pos-odoo19-3.58.5-linux-x64.tar.gz",
-      "sha256": "9eddea06ad1abbf518fd4e22624ba56c27d0338916eaa520c40d5acd03ddb24a"
+      "name": "flutter-pos-odoo19-3.58.6-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.6/flutter-pos-odoo19-3.58.6-linux-x64.tar.gz",
+      "sha256": "a6995fbbcebb4ce66be9557af2b5970717a28bb07f0ecda5b675252d93758f01"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.58.5-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.5/flutter-pos-odoo19-3.58.5-android-arm64-v8a.apk",
-      "sha256": "8d50b4a77efb4bccb0588de544899586ea826ae178b96d4e0a2ac8bfa6780620"
+      "name": "flutter-pos-odoo19-3.58.6-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.6/flutter-pos-odoo19-3.58.6-android-arm64-v8a.apk",
+      "sha256": "c4bdd259da3f0aa3861566b873cc33cc591a60c6428bbdd374b0bf119c52bc0a"
     }
   }
 }
