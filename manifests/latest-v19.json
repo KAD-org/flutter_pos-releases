@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.58.6",
-  "tag": "v19-3.58.6",
-  "published_at": "2026-07-31T16:07:02Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.58.6",
-  "body": "## [3.58.6] - 2026-07-31\n\n### Bug Fixes\n\n- exclude cash rounding from non-cash effective total calculations\n- adjust rounding logic for multipass and gift card payments\n\n### Other Changes\n\n- Fix desktop hot restart recovery",
+  "version": "3.59.0",
+  "tag": "v19-3.59.0",
+  "published_at": "2026-08-03T13:57:34Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.59.0",
+  "body": "## [3.59.0] - 2026-08-03\n\n### Features\n\n- enhance discount calculations to include promotion lines\n- calculate loyalty points based on discounted order amounts and fix card search issues\n- replace TextField with KeyboardAwareTextField for improved keyboard handling\n- update schema version to 98 and add card last digits to synced orders\n- implement fallback to first allowed language on invalid selection\n- enhance employee auth and orders functionality with keyboard-aware fields and card last digits support\n- add confirmation message for discarding bank transfer and Bit payment lines\n- add support for bank transfer and Bit payment methods\n- add order durability and payment recovery plan\n\n### Bug Fixes\n\n- resolve multipass card search issue for short codes and enhance refund point deduction logic\n\n### Other Changes\n\n- unify card last digits extraction logic for consistency across payment types\n- Fix split cash overpayment reconciliation\n- add AI development workflow\n- Add v97 additive schema repair\n- Add database migration tests for employee photo URL and original customer ID/name\n- Refine provider payment recovery handling\n- Refactor totals calculation to account for rounding amount in display\n- Default basket barcode off in layout presets\n- Fix split payment order id and cent remainder handling\n- Handle declined terminal payments in recovery\n- Guard current cart before closing register\n- Harden POS order durability\n- Record and sync checkout integrity incidents\n- Implement offline-first order durability",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.58.6-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.6/flutter-pos-odoo19-3.58.6-windows-x64.zip",
-      "sha256": "a63e25b410401f8eb705f0d2e51850a0a7b9252aba7e6c61cdf152cffb16cdf6"
+      "name": "flutter-pos-odoo19-3.59.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.59.0/flutter-pos-odoo19-3.59.0-windows-x64.zip",
+      "sha256": "1f975af804ffd3f14332c0a0eeeefd3e1c6d9a9f088f8d71ec0c0ee7861a1164"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.58.6-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.6/flutter-pos-odoo19-3.58.6-linux-x64.tar.gz",
-      "sha256": "a6995fbbcebb4ce66be9557af2b5970717a28bb07f0ecda5b675252d93758f01"
+      "name": "flutter-pos-odoo19-3.59.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.59.0/flutter-pos-odoo19-3.59.0-linux-x64.tar.gz",
+      "sha256": "28c5cbacbb7e1eab05181f7f92592125e7bfa9619c72ba9d56abb7849049fda9"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.58.6-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.58.6/flutter-pos-odoo19-3.58.6-android-arm64-v8a.apk",
-      "sha256": "c4bdd259da3f0aa3861566b873cc33cc591a60c6428bbdd374b0bf119c52bc0a"
+      "name": "flutter-pos-odoo19-3.59.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.59.0/flutter-pos-odoo19-3.59.0-android-arm64-v8a.apk",
+      "sha256": "a419d86ac7176ca6c39e8f056e5bf4fa2d06e023f4e51666152b15889fa03b67"
     }
   }
 }
