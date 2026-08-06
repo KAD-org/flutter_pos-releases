@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.59.0",
-  "tag": "v19-3.59.0",
-  "published_at": "2026-08-03T13:57:34Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.59.0",
-  "body": "## [3.59.0] - 2026-08-03\n\n### Features\n\n- enhance discount calculations to include promotion lines\n- calculate loyalty points based on discounted order amounts and fix card search issues\n- replace TextField with KeyboardAwareTextField for improved keyboard handling\n- update schema version to 98 and add card last digits to synced orders\n- implement fallback to first allowed language on invalid selection\n- enhance employee auth and orders functionality with keyboard-aware fields and card last digits support\n- add confirmation message for discarding bank transfer and Bit payment lines\n- add support for bank transfer and Bit payment methods\n- add order durability and payment recovery plan\n\n### Bug Fixes\n\n- resolve multipass card search issue for short codes and enhance refund point deduction logic\n\n### Other Changes\n\n- unify card last digits extraction logic for consistency across payment types\n- Fix split cash overpayment reconciliation\n- add AI development workflow\n- Add v97 additive schema repair\n- Add database migration tests for employee photo URL and original customer ID/name\n- Refine provider payment recovery handling\n- Refactor totals calculation to account for rounding amount in display\n- Default basket barcode off in layout presets\n- Fix split payment order id and cent remainder handling\n- Handle declined terminal payments in recovery\n- Guard current cart before closing register\n- Harden POS order durability\n- Record and sync checkout integrity incidents\n- Implement offline-first order durability",
+  "version": "3.60.0",
+  "tag": "v19-3.60.0",
+  "published_at": "2026-08-06T10:39:20Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.60.0",
+  "body": "## [3.60.0] - 2026-08-06\n\n### Features\n\n- restore multi-currency cash counting to Open/Close register\n- proportional Jewelry cart columns + move Coupon toggle to Settings\n- add Fast Cash / Fast Credit quick-pay buttons to the Grocery preset\n\n### Bug Fixes\n\n- remove Reports Between Dates section\n- allow clearing declined terminal attempts\n- show the currency symbol actually assigned to each payment method\n- address register lifecycle review\n- simplify register refresh loading state\n- disable register auth during refresh\n- preserve null is_foreign_currency instead of coercing to false\n- warn when register refresh blocks reopen\n- await multi-currency setting instead of racing its first stream value; fix loading-state fallback for split-payment evidence\n- fetch opening-register payment methods scoped to this POS on employee-login\n- default-cash ordering, resilient close, POS-scoped methods, phone multi-currency\n- resolve hidden cash method for base-currency change\n- show native-currency amounts for foreign cash, dedupe localizer\n- guard register reopen during close refresh\n- refine old-schema detection for productDescriptionFlex value\n- align promo/loyalty row columns with the header's flex baseline\n- catch old-schema Jewelry configs within the new range, restore flex clamp, fix stale wording\n- broadcast split-session changes on restore and clear too\n- variant column squeeze + migrate old pixel-width layout configs\n- align multicurrency settlement display\n- treat allocation-only split payments as unresolved evidence too\n- catch payment tenders still pending in the split dialog\n- centralize multicurrency settlement\n- Fast Cash/Fast Credit stay disabled only for unresolved split payments\n- preserve multicurrency change retry metadata\n- avoid fx rounding on currency overpayment\n- keep multi-currency change with tender\n- support partial phone searches\n- allow customer phone search\n- search displayed status labels\n- limit search to visible fields\n- revert Total Due gating to the Restrict Customer Account toggle\n- await payment methods before skipping the Total Due fetch\n- gate Total Due on pay_later availability, not the restrict toggle\n- salesperson auto-assign, hide Total Due when unused, preserve QC customer on suspend\n- address second-round review on Fast Cash/Fast Credit quick-pay\n- address code review on real-customer preservation\n- address code review on Fast Cash/Fast Credit quick-pay\n- preserve real customer identity through Named Tax Invoice swaps\n\n### Other Changes\n\n- point submodule at multi-currency register backend (flutter_pos_api#7)\n- point submodule at multi-currency register backend (flutter_pos_api#7)\n- point submodule at the merged backend (flutter_pos_api#5)\n- Potential fix for pull request finding\n- Potential fix for pull request finding\n- Potential fix for pull request finding\n- report development PR validation\n- reset odoo19 development to main\n- use subscription-backed Codex PR reviews\n- preserve backend results after Flutter failures\n- checkout only the pinned Odoo addon\n- add Odoo 19 private development releases",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.59.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.59.0/flutter-pos-odoo19-3.59.0-windows-x64.zip",
-      "sha256": "1f975af804ffd3f14332c0a0eeeefd3e1c6d9a9f088f8d71ec0c0ee7861a1164"
+      "name": "flutter-pos-odoo19-3.60.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.0/flutter-pos-odoo19-3.60.0-windows-x64.zip",
+      "sha256": "4e1dbc2b33d8a5e0bfdb40bec323aeb27acceb6f75c930f77286198d6b56d08d"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.59.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.59.0/flutter-pos-odoo19-3.59.0-linux-x64.tar.gz",
-      "sha256": "28c5cbacbb7e1eab05181f7f92592125e7bfa9619c72ba9d56abb7849049fda9"
+      "name": "flutter-pos-odoo19-3.60.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.0/flutter-pos-odoo19-3.60.0-linux-x64.tar.gz",
+      "sha256": "8b0f1683d477dac26b36af7c3c94e207ae113cdc0de69992c750e5c9d19af068"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.59.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.59.0/flutter-pos-odoo19-3.59.0-android-arm64-v8a.apk",
-      "sha256": "a419d86ac7176ca6c39e8f056e5bf4fa2d06e023f4e51666152b15889fa03b67"
+      "name": "flutter-pos-odoo19-3.60.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.0/flutter-pos-odoo19-3.60.0-android-arm64-v8a.apk",
+      "sha256": "bcfa1d089298f744434da53f27215930f4a42c5938d2185e4f2afe41e7541bbc"
     }
   }
 }
