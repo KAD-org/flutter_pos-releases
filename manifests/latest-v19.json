@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.60.10",
-  "tag": "v19-3.60.10",
-  "published_at": "2026-08-09T13:48:42Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.60.10",
-  "body": "## [3.60.10] - 2026-08-09",
+  "version": "3.60.11",
+  "tag": "v19-3.60.11",
+  "published_at": "2026-08-10T10:44:41Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.60.11",
+  "body": "## [3.60.11] - 2026-08-10\n\n### Bug Fixes\n\n- persist active loyalty redemptions across park/resume\n- address code-review findings on loyalty redemption changes\n- preserve redeemed points after payment\n- ensure loyalty redemption discounts do not exceed cart subtotal\n- persist isManualPriceOverride across cart park/resume snapshot\n- prevent duplicate loyalty redemption reversal on concurrent cancel\n- don't disable price-ceiling/discount checks on zero-price override lines\n- preserve manual zero-price override across customer/pricelist change\n- reverse loyalty point redemptions cancelled before payment\n\n### Other Changes\n\n- Guard in-memory pending refunds\n- Fix refund line tracking for general items\n- Fix receipt discount display base\n- Address refund salesperson and close lock review\n- Format gift card keyboard entry\n- Fix refund draft lifecycle and close register overlay\n- prevent duplicate active refund drafts\n- allow Shva close dialogs above register overlay\n- add global register closing overlay\n- fix refund general items and salesperson sync",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.60.10-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.10/flutter-pos-odoo19-3.60.10-windows-x64.zip",
-      "sha256": "7a5bc31a579922fcc1064514e395116905b297ee4bc19b188c4abd7bd5abaa3b"
+      "name": "flutter-pos-odoo19-3.60.11-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.11/flutter-pos-odoo19-3.60.11-windows-x64.zip",
+      "sha256": "ef5505a3c20bdfd152bd0f331ce08e7c2f8efb163c6e8fb094d4a9449a8085b2"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.60.10-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.10/flutter-pos-odoo19-3.60.10-linux-x64.tar.gz",
-      "sha256": "b212b6f2275523a5baf8bc73239de1b8d6bf3ce89ae5b6eaf6354e1f23d60922"
+      "name": "flutter-pos-odoo19-3.60.11-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.11/flutter-pos-odoo19-3.60.11-linux-x64.tar.gz",
+      "sha256": "8b3c698f9848e066b47376c7dc21b457911e94880f4f993277e89f686e52da17"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.60.10-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.10/flutter-pos-odoo19-3.60.10-android-arm64-v8a.apk",
-      "sha256": "1d0b553fa37dfd42fd06ffad013144131a76bd64d8d179697515ff83a7f07318"
+      "name": "flutter-pos-odoo19-3.60.11-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.60.11/flutter-pos-odoo19-3.60.11-android-arm64-v8a.apk",
+      "sha256": "d8561dc1e2a0cef4d7b00fc2947792725fd6faa3c04604c450fbc47f97bf647c"
     }
   }
 }
