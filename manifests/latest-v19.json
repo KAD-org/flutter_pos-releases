@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.62.0",
-  "tag": "v19-3.62.0",
-  "published_at": "2026-08-13T12:21:16Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.62.0",
-  "body": "## [3.62.0] - 2026-08-13\n\n### Features\n\n- improve sales employee cache update logic for repair orders\n- add sales employee name to repair order summary and detail panel\n- combine notes from customer info and parts steps in repair line flow\n- send sales employee to repair order creation and show it on repair slip\n- add support for dynamic currency symbols in report builders\n\n### Bug Fixes\n\n- localize gift card status labels\n- block read-only activation submit\n- surface foreign-currency cash opening balance in Z/X reports\n\n### Other Changes\n\n- Fix gift card existing status dialog",
+  "version": "3.62.2",
+  "tag": "v19-3.62.2",
+  "published_at": "2026-08-13T12:54:39Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.62.2",
+  "body": "## [3.62.2] - 2026-08-13\n\n### Bug Fixes\n\n- use Flutter 3.32 dropdown value parameter",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.62.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.62.0/flutter-pos-odoo19-3.62.0-windows-x64.zip",
-      "sha256": "a77db5550a54f5aa4ae0bd8dc5fafdd74ec2f234d44e09bc8b56c21db0d9406a"
+      "name": "flutter-pos-odoo19-3.62.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.62.2/flutter-pos-odoo19-3.62.2-windows-x64.zip",
+      "sha256": "96c28d5f807246f3009e4b2e2a2eb2dc587598700240ce7a60c308005f1a12c0"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.62.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.62.0/flutter-pos-odoo19-3.62.0-linux-x64.tar.gz",
-      "sha256": "645e4854086bcb8f298d48d5786679a070278f416a23ed8970e8c636a0847ade"
+      "name": "flutter-pos-odoo19-3.62.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.62.2/flutter-pos-odoo19-3.62.2-linux-x64.tar.gz",
+      "sha256": "d6696abfb8ff9e4af544fce3d297661c5c8015596e3a9c32314dc72320f92461"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.62.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.62.0/flutter-pos-odoo19-3.62.0-android-arm64-v8a.apk",
-      "sha256": "913ecd5fd8abebda7207db3612481a894e846fa4188f4c3965bef786952b78b7"
+      "name": "flutter-pos-odoo19-3.62.2-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.62.2/flutter-pos-odoo19-3.62.2-android-arm64-v8a.apk",
+      "sha256": "86900a84c54a3be5d792cfeec374502a6ee6a8c4e5294cd4e3121f8fbb4b2421"
     }
   }
 }
