@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.64.0",
-  "tag": "v19-3.64.0",
-  "published_at": "2026-08-16T13:23:54Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.64.0",
-  "body": "## [3.64.0] - 2026-08-16\n\n### Features\n\n- support compact receipt references in barcode processing\n- open cash drawer on session open and close\n\n### Other Changes\n\n- reorder cash drawer opening logic during session close",
+  "version": "3.65.0",
+  "tag": "v19-3.65.0",
+  "published_at": "2026-08-16T13:34:34Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.65.0",
+  "body": "## [3.65.0] - 2026-08-16\n\n### Features\n\n- Show Transactions action opens Orders pre-filtered to a customer",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.64.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.64.0/flutter-pos-odoo19-3.64.0-windows-x64.zip",
-      "sha256": "c7fa59c728438d2b711929e65fc1d1a855a132bdac4b36302b98a97b39256e49"
+      "name": "flutter-pos-odoo19-3.65.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.0/flutter-pos-odoo19-3.65.0-windows-x64.zip",
+      "sha256": "0c9f833f70211d6a5209c7acb49f00396478d36ed402f5d3d64869cece5be1da"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.64.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.64.0/flutter-pos-odoo19-3.64.0-linux-x64.tar.gz",
-      "sha256": "3d3617242e5b2c02436a00816829ac44ac59dad21d2e812d9752e69d59d32dde"
+      "name": "flutter-pos-odoo19-3.65.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.0/flutter-pos-odoo19-3.65.0-linux-x64.tar.gz",
+      "sha256": "0d11bb81048ecb008e5d0a825ac678815613ff1e8abd09d629aeea680dc796c9"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.64.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.64.0/flutter-pos-odoo19-3.64.0-android-arm64-v8a.apk",
-      "sha256": "4aee5b25bd338e6c1f47f9b3defea617c2c128f8ec8eee82af15752ac75c46a4"
+      "name": "flutter-pos-odoo19-3.65.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.0/flutter-pos-odoo19-3.65.0-android-arm64-v8a.apk",
+      "sha256": "fa237e0765a1fd0b4e506a97ef480901238952cf91b1710c954dc291e783c199"
     }
   }
 }
