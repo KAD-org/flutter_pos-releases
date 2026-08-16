@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.65.1",
-  "tag": "v19-3.65.1",
-  "published_at": "2026-08-16T13:50:12Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.65.1",
-  "body": "## [3.65.1] - 2026-08-16\n\n### Bug Fixes\n\n- restore keypad focus after employee selection",
+  "version": "3.65.2",
+  "tag": "v19-3.65.2",
+  "published_at": "2026-08-16T14:35:07Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.65.2",
+  "body": "## [3.65.2] - 2026-08-16\n\n### Bug Fixes\n\n- language setting reverts to default on every app restart",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.65.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.1/flutter-pos-odoo19-3.65.1-windows-x64.zip",
-      "sha256": "62354310bc0d212c96a8c1945641a23e8834af037d9915a61500c7934001dded"
+      "name": "flutter-pos-odoo19-3.65.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.2/flutter-pos-odoo19-3.65.2-windows-x64.zip",
+      "sha256": "451cb8dc4a29d0f7c8e7b64f34b7edd228bf0ed2c1cafc70e2f6368d9a030e10"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.65.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.1/flutter-pos-odoo19-3.65.1-linux-x64.tar.gz",
-      "sha256": "89524588e791d47d5e61cdb82f1b143f148d37b7deb8f02ff981271e6f7f8574"
+      "name": "flutter-pos-odoo19-3.65.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.2/flutter-pos-odoo19-3.65.2-linux-x64.tar.gz",
+      "sha256": "71ec573c19505c41aed97db8913f38ff5e9ca2a0562de50b3d4643afb30263cb"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.65.1-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.1/flutter-pos-odoo19-3.65.1-android-arm64-v8a.apk",
-      "sha256": "a3c8bce55612af5eff5fb5b283ac69a0c4201e07820eb45ed75229c7b27f7d5e"
+      "name": "flutter-pos-odoo19-3.65.2-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.2/flutter-pos-odoo19-3.65.2-android-arm64-v8a.apk",
+      "sha256": "76107aa923b4b9791a5fdb5a415f678392836bc7106a8bb5e0123def7b499bbc"
     }
   }
 }
