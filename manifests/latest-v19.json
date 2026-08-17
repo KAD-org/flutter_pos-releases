@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.65.2",
-  "tag": "v19-3.65.2",
-  "published_at": "2026-08-16T14:35:07Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.65.2",
-  "body": "## [3.65.2] - 2026-08-16\n\n### Bug Fixes\n\n- language setting reverts to default on every app restart",
+  "version": "3.65.3",
+  "tag": "v19-3.65.3",
+  "published_at": "2026-08-17T08:30:20Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.65.3",
+  "body": "## [3.65.3] - 2026-08-17\n\n### Bug Fixes\n\n- 'External Credit' (non-terminal) payment method wrongly blocked as unconfigured Nayax terminal",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.65.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.2/flutter-pos-odoo19-3.65.2-windows-x64.zip",
-      "sha256": "451cb8dc4a29d0f7c8e7b64f34b7edd228bf0ed2c1cafc70e2f6368d9a030e10"
+      "name": "flutter-pos-odoo19-3.65.3-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.3/flutter-pos-odoo19-3.65.3-windows-x64.zip",
+      "sha256": "f1490a9daa15823f447eec4685ffd380f6a6283189e8797a7de77315dff92701"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.65.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.2/flutter-pos-odoo19-3.65.2-linux-x64.tar.gz",
-      "sha256": "71ec573c19505c41aed97db8913f38ff5e9ca2a0562de50b3d4643afb30263cb"
+      "name": "flutter-pos-odoo19-3.65.3-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.3/flutter-pos-odoo19-3.65.3-linux-x64.tar.gz",
+      "sha256": "595dd2073e19059c07ed5a3e8921477b989da3f984d8739d055220a12bb1fb54"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.65.2-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.2/flutter-pos-odoo19-3.65.2-android-arm64-v8a.apk",
-      "sha256": "76107aa923b4b9791a5fdb5a415f678392836bc7106a8bb5e0123def7b499bbc"
+      "name": "flutter-pos-odoo19-3.65.3-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.3/flutter-pos-odoo19-3.65.3-android-arm64-v8a.apk",
+      "sha256": "64a21b4bc36ab5e68a2594e7a05d81ef0970f5ee917542226afe70cb47fff93d"
     }
   }
 }
