@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.65.4",
-  "tag": "v19-3.65.4",
-  "published_at": "2026-08-17T11:26:10Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.65.4",
-  "body": "## [3.65.4] - 2026-08-17\n\n### Bug Fixes\n\n- Show Transactions silently capped a customer's history at 200 orders\n- item-code order search missed lines on remote/synced-only orders\n- credit-card checkout safety net could be bypassed during a cache gap\n- preserve successful terminal payments that omit their own reference",
+  "version": "3.66.0",
+  "tag": "v19-3.66.0",
+  "published_at": "2026-08-20T14:58:19Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.66.0",
+  "body": "## [3.66.0] - 2026-08-20\n\n### Features\n\n- update date handling in Z report date range dialog to use AppClock\n- add quick date presets to Z report date range dialog\n\n### Bug Fixes\n\n- preserve multipass swipe card codes\n- preserve multipass swipe card codes\n- coalesce PayTag reconciliation\n- await loyalty data for PayTag checks\n- harden gift card voucher restrictions\n- gift-card/voucher cross-payment block matched product names, not real gift-card products\n- preserve manual discount sync marker\n- address refund discount review comments\n- limit image cookies to Odoo origin\n- refresh cached logo slots\n- distinguish salesperson load errors\n- discard pending payment state\n\n### Other Changes\n\n- Fix legacy loyalty refund note matching\n- Fix stale test API usage\n- Fix auth error name cast\n- Fix cash rounding split payment settlement\n- Fix scanned order online lookup\n- validate odoo19 development pull requests\n- Do not allocate unmarked voucher adjustments on refund\n- Fix refund discount line classification\n- Handle legacy refund net adjustments\n- Windows SSL-fix button + safer session-error handling (404/500 no longer forces logout) (#307)\n- Fix refund discount adjustment classification\n- Use Dart customer display view on Android\n- Preserve Nayax cancellation status code\n- Fix Nexo terminal cancel handling\n- Use branch salesperson sales report",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.65.4-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.4/flutter-pos-odoo19-3.65.4-windows-x64.zip",
-      "sha256": "1e3935ca7633068ca79ea9666787d916c22af74dd9e0c67f912e704b218f3827"
+      "name": "flutter-pos-odoo19-3.66.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.0/flutter-pos-odoo19-3.66.0-windows-x64.zip",
+      "sha256": "06f1373c8b73b4cba7a8a77232ecdfcb130e54b1c9834d57d20ce52500506d73"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.65.4-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.4/flutter-pos-odoo19-3.65.4-linux-x64.tar.gz",
-      "sha256": "d3290476875b05a82fc238dcf4bbcd1929b913bc970a924f7ccdf2d7cc92cec5"
+      "name": "flutter-pos-odoo19-3.66.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.0/flutter-pos-odoo19-3.66.0-linux-x64.tar.gz",
+      "sha256": "5e0d6e1ac57411d9c2f3c4844ee4c5141ab3973a5010d8304df533315f2172f5"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.65.4-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.65.4/flutter-pos-odoo19-3.65.4-android-arm64-v8a.apk",
-      "sha256": "e1b0b0c81fe1dd1569eb62f109d9136a3599445bc84105cbe55be969ee79d44f"
+      "name": "flutter-pos-odoo19-3.66.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.0/flutter-pos-odoo19-3.66.0-android-arm64-v8a.apk",
+      "sha256": "d95f37c19059550b23254a94fba3aeed8bfb4a8aef9066fd81e4be29fac6b8a0"
     }
   }
 }
