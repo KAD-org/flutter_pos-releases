@@ -2,26 +2,26 @@
   "schema": 1,
   "stream": "v19",
   "odoo_major": 19,
-  "version": "3.67.0",
-  "tag": "v19-3.67.0",
-  "published_at": "2026-08-26T09:29:32Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.67.0",
-  "body": "## [3.67.0] - 2026-08-26\n\n### Features\n\n- show paged online order search totals\n- localize customer actions and employee picker\n- improve POS sales and customer workflows\n\n### Bug Fixes\n\n- support ci flutter version in order search scope\n- print current voucher balance after redemption\n- count refund quantities absolutely\n- resolve voucher copies for online orders\n- guard direct cart deletions\n- preserve normalized search and discount guards\n- close kiosk and search race gaps\n- guard coupon removal mutations\n- preserve normalized checkout identities\n- close remaining checkout review gaps\n- report voucher copy print failures\n- preserve paytag reconciliation integrity\n- propagate deferred cart rejections\n- revalidate kiosk payment assignment\n- settle cash rounding split payments\n- keep kiosk removals atomic\n- propagate guarded cart rejections\n- make guarded cart workflows atomic\n- match voucher copies to exact order\n- guard promotion state mutations\n- abort rejected gift card activations\n- normalize restored refund exchanges\n- keep desktop payment recovery accessible\n- preserve fixed employee payment recovery\n- preserve cart mode on refund add failure\n- guard fixed employee repricing\n- refresh fixed employee enforcement\n- guard fixed employee phone tenders\n- close remaining guarded selection paths\n- reveal selected online orders\n- guard custom cart discount lines\n- guard deleted-line restoration\n- guard fixed-employee line discounts\n- preserve guarded fuel and refund mutations\n- guard fixed-employee line edits\n- preserve refund salesperson during mutations\n- preserve refund attribution and pricing accuracy\n- close remaining POS workflow review gaps\n- separate gross document discount display\n- address discount sync review feedback\n- scope document counter recovery by POS sequence\n- recover repeated POS receipt numbers\n- address POS workflow review findings\n- harden workflow settings and receipt status layout\n- sync weighted discount totals consistently\n- align wallet payment amount rounding\n\n### Other Changes\n\n- update api submodule validation fix\n- Reapply \"Merge pull request #326 from KAD-org/odoo19/pos-workflow-improvements\"\n- Revert \"Merge pull request #326 from KAD-org/odoo19/pos-workflow-improvements\"\n- Fix cash total hint rounding display\n- Fix mixed tender cash rounding settlement\n- Disable presets for repair-owned lines\n- Apply fixed discounts against current unit price\n- Keep pending discount submission immutable\n- Guard cart item discount application\n- Guard discount submission while applying\n- Honor selected discount preset over pending price\n- Improve POS discount preset workflow\n- update voucher history service fake\n- harden POS workflow regressions",
+  "version": "3.66.2",
+  "tag": "v19-3.66.2",
+  "published_at": "2026-08-26T12:46:06Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.66.2",
+  "body": "## [3.66.2] - 2026-08-26\n\n### Bug Fixes\n\n- restore 3.66 patch release compatibility",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.67.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.67.0/flutter-pos-odoo19-3.67.0-windows-x64.zip",
-      "sha256": "dda97dd3e00614e5667d7104fb696f83ff241886d81ab4812edd39c7d1a21f39"
+      "name": "flutter-pos-odoo19-3.66.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.2/flutter-pos-odoo19-3.66.2-windows-x64.zip",
+      "sha256": "ff19d92cca01e82fe346defd4c58963bfe7c2cce056602f21fd9a827d5040bbf"
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.67.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.67.0/flutter-pos-odoo19-3.67.0-linux-x64.tar.gz",
-      "sha256": "3893dfb8c11911be0938b8ff844e4febfbb43b4489cf1954fa16c66fe05409b2"
+      "name": "flutter-pos-odoo19-3.66.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.2/flutter-pos-odoo19-3.66.2-linux-x64.tar.gz",
+      "sha256": "2e721532d3e01737a99f27853ce8ec45f48bafc46e6f0b5eb667aebdf498667e"
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.67.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.67.0/flutter-pos-odoo19-3.67.0-android-arm64-v8a.apk",
-      "sha256": "e8dc61895c326d48f2228c1f053593f0100170737ca35965c15034875b2664e8"
+      "name": "flutter-pos-odoo19-3.66.2-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.2/flutter-pos-odoo19-3.66.2-android-arm64-v8a.apk",
+      "sha256": "b7ba65051b8b04fcbd7feb8b341a9f1aba3d466d18b50ebfac1644d91a92f1fb"
     }
   }
 }
