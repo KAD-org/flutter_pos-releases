@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.66.2",
-  "build": 173,
-  "tag": "v19-3.66.2",
+  "version": "3.66.4",
+  "build": 175,
+  "tag": "v19-3.66.4",
   "source": {
-    "flutter_commit": "fe2d5c06c751fb52d4f6ce62478d68f6b8585904",
+    "flutter_commit": "b0dd0b1fe0107ea085a885c82cbf50b47dcf6b3f",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "fc6474d773178e4152e60b371b022813307b5e0d"
+    "backend_commit": "f655b5d146527ff3bbe9089bba789731efddc6a3"
   },
-  "published_at": "2026-08-26T12:46:06Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.66.2",
-  "body": "## [3.66.2] - 2026-08-26\n\n### Bug Fixes\n\n- restore 3.66 patch release compatibility",
+  "published_at": "2026-08-26T17:37:23Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.66.4",
+  "body": "## [3.66.4] - 2026-08-26\n\n### Bug Fixes\n\n- stop post-close refresh blocking login indefinitely",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.66.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.2/flutter-pos-odoo19-3.66.2-windows-x64.zip",
-      "sha256": "ff19d92cca01e82fe346defd4c58963bfe7c2cce056602f21fd9a827d5040bbf",
-      "size_bytes": 29708667
+      "name": "flutter-pos-odoo19-3.66.4-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.4/flutter-pos-odoo19-3.66.4-windows-x64.zip",
+      "sha256": "efd4831b8665fdbbe482c7c6c6d2da129485784231a008954f495ec5f0e28f9c",
+      "size_bytes": 29710603
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.66.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.2/flutter-pos-odoo19-3.66.2-linux-x64.tar.gz",
-      "sha256": "2e721532d3e01737a99f27853ce8ec45f48bafc46e6f0b5eb667aebdf498667e",
-      "size_bytes": 35876939
+      "name": "flutter-pos-odoo19-3.66.4-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.4/flutter-pos-odoo19-3.66.4-linux-x64.tar.gz",
+      "sha256": "b6d3d69511f6485557d30ba218151f64dcba01985791f2224083e26d8c838d5e",
+      "size_bytes": 35881013
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.66.2-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.2/flutter-pos-odoo19-3.66.2-android-arm64-v8a.apk",
-      "sha256": "b7ba65051b8b04fcbd7feb8b341a9f1aba3d466d18b50ebfac1644d91a92f1fb",
-      "size_bytes": 25982888
+      "name": "flutter-pos-odoo19-3.66.4-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.4/flutter-pos-odoo19-3.66.4-android-arm64-v8a.apk",
+      "sha256": "705afaf04b8c52a36bb87662b1bd2659fd232118ab11bf3cdf1683aab3e528f8",
+      "size_bytes": 25983857
     }
   }
 }
