@@ -7,10 +7,10 @@
   "build": 173,
   "tag": "v19-3.66.2",
   "source": {
-    "flutter_commit": "d0644420561cbf3ab377956c4a2e272482022a30",
+    "flutter_commit": "fe2d5c06c751fb52d4f6ce62478d68f6b8585904",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "fc6474d704810d9f9a08578291e5cd9e5f352588"
+    "backend_commit": "fc6474d773178e4152e60b371b022813307b5e0d"
   },
   "published_at": "2026-08-26T12:46:06Z",
   "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.66.2",
