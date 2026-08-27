@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.66.5",
-  "build": 176,
-  "tag": "v19-3.66.5",
+  "version": "3.68.0",
+  "build": 177,
+  "tag": "v19-3.68.0",
   "source": {
-    "flutter_commit": "d3e8b8d21fedbd1f834de0103a60c230ef351905",
+    "flutter_commit": "0083ba10fbe7c5979d039af00147c09620df64c2",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "f655b5d146527ff3bbe9089bba789731efddc6a3"
+    "backend_commit": "fa1cc1f8d81f933e9145723de050f8c81533730e"
   },
-  "published_at": "2026-08-26T17:51:02Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.66.5",
-  "body": "## [3.66.5] - 2026-08-26\n\n### Bug Fixes\n\n- chunk archived product deletes",
+  "published_at": "2026-08-27T14:07:56Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.68.0",
+  "body": "## [3.68.0] - 2026-08-27\n\n### Features\n\n- allow no initial edit-line focus\n- configure edit-line initial cursor field\n- preserve reverted 3.67.0 progress for review\n\n### Bug Fixes\n\n- preserve monotonic version and branch provenance\n- restore fixed employee validation for phone split captures\n- ensure proper initialization of employee loading provider\n- preserve multiline line notes\n- focus editable field for repair lines\n- preserve edit cursor across presets\n- reveal initially focused edit field\n- submit line edits with enter\n- select initial edit-line field value\n- make pending report acknowledgements atomic\n- keep file logging after retention cleanup failure\n- auto-scroll customer display cart for Jira 216\n- throttle log retention cleanup\n- restore doc counter floor for sync push\n- require external Nayax card terminals\n- harden local log retention and bulk sqlite operations\n- preserve local custom layout metadata\n- restore POS layout preset from Odoo settings\n\n### Other Changes\n\n- align picking assertion with shared API helper\n- update legacy internal card widget expectations\n- pair development with validated API\n- pair private build with preserved API\n- Refactor credit method identification and update UI to conditionally display Fast Credit button based on journal type\n- Fix Nayax VUID generated after durability attempt begins",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.66.5-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.5/flutter-pos-odoo19-3.66.5-windows-x64.zip",
-      "sha256": "bad225a065bcff0db16effb3d2f2ba68d0260723009550d3da0d73e8819c32da",
-      "size_bytes": 29710724
+      "name": "flutter-pos-odoo19-3.68.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.68.0/flutter-pos-odoo19-3.68.0-windows-x64.zip",
+      "sha256": "93a5f0f02f205312a21dfd3b4debe236ce92b5863acaa7b540d377dcba4cb39a",
+      "size_bytes": 29773351
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.66.5-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.5/flutter-pos-odoo19-3.66.5-linux-x64.tar.gz",
-      "sha256": "db7573ba3053271b2cb45616c0722717684f28bd531e8371009df55af68dd178",
-      "size_bytes": 35881351
+      "name": "flutter-pos-odoo19-3.68.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.68.0/flutter-pos-odoo19-3.68.0-linux-x64.tar.gz",
+      "sha256": "3648967686223eda0369b97a74f056e13c4eb830f6161c16f3c4d4779cbaf926",
+      "size_bytes": 35953452
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.66.5-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.66.5/flutter-pos-odoo19-3.66.5-android-arm64-v8a.apk",
-      "sha256": "bd5a6353fe7791a5dab1d7d34a640432329d8780feb5407719790977efd01cf1",
-      "size_bytes": 25983647
+      "name": "flutter-pos-odoo19-3.68.0-android-arm64-v8a.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.68.0/flutter-pos-odoo19-3.68.0-android-arm64-v8a.apk",
+      "sha256": "aa5eab32c8ba08ec7dd5d658f3a91e62ae736d230c704436b9f42ebef231451d",
+      "size_bytes": 26052784
     }
   }
 }
