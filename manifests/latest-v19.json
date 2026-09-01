@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.68.0",
-  "build": 177,
-  "tag": "v19-3.68.0",
+  "version": "3.71.4",
+  "build": 184,
+  "tag": "v19-3.71.4",
   "source": {
-    "flutter_commit": "0083ba10fbe7c5979d039af00147c09620df64c2",
+    "flutter_commit": "2157e70d40404bbecb31fb21d98f59f9e5ae2e54",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "fa1cc1f8d81f933e9145723de050f8c81533730e"
+    "backend_commit": "1a059923ebdfdb63af8d36c4497dabf384e87500"
   },
-  "published_at": "2026-08-27T14:07:56Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.68.0",
-  "body": "## [3.68.0] - 2026-08-27\n\n### Features\n\n- allow no initial edit-line focus\n- configure edit-line initial cursor field\n- preserve reverted 3.67.0 progress for review\n\n### Bug Fixes\n\n- preserve monotonic version and branch provenance\n- restore fixed employee validation for phone split captures\n- ensure proper initialization of employee loading provider\n- preserve multiline line notes\n- focus editable field for repair lines\n- preserve edit cursor across presets\n- reveal initially focused edit field\n- submit line edits with enter\n- select initial edit-line field value\n- make pending report acknowledgements atomic\n- keep file logging after retention cleanup failure\n- auto-scroll customer display cart for Jira 216\n- throttle log retention cleanup\n- restore doc counter floor for sync push\n- require external Nayax card terminals\n- harden local log retention and bulk sqlite operations\n- preserve local custom layout metadata\n- restore POS layout preset from Odoo settings\n\n### Other Changes\n\n- align picking assertion with shared API helper\n- update legacy internal card widget expectations\n- pair development with validated API\n- pair private build with preserved API\n- Refactor credit method identification and update UI to conditionally display Fast Credit button based on journal type\n- Fix Nayax VUID generated after durability attempt begins",
+  "published_at": "2026-09-01T11:14:30Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.71.4",
+  "body": "## [3.71.4] - 2026-09-01\n\n### Bug Fixes\n\n- publish universal Android updater APK\n- tighten Android update asset selection\n- sign Android release APKs with stable key\n- select compatible Android update APK\n\n### Other Changes\n\n- authenticate paired API fetch\n- detect SQLite development library precisely\n- install SQLite runtime for widget tests\n- Fix zero-total grocery checkout draft cleanup",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.68.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.68.0/flutter-pos-odoo19-3.68.0-windows-x64.zip",
-      "sha256": "93a5f0f02f205312a21dfd3b4debe236ce92b5863acaa7b540d377dcba4cb39a",
-      "size_bytes": 29773351
+      "name": "flutter-pos-odoo19-3.71.4-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.4/flutter-pos-odoo19-3.71.4-windows-x64.zip",
+      "sha256": "27943f48e073f63d72e0e0ef33e4b94325d2ce75ad721db57d69b778f0cce6b2",
+      "size_bytes": 29778193
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.68.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.68.0/flutter-pos-odoo19-3.68.0-linux-x64.tar.gz",
-      "sha256": "3648967686223eda0369b97a74f056e13c4eb830f6161c16f3c4d4779cbaf926",
-      "size_bytes": 35953452
+      "name": "flutter-pos-odoo19-3.71.4-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.4/flutter-pos-odoo19-3.71.4-linux-x64.tar.gz",
+      "sha256": "c35bce5e828ad3720aece0b902a604524b698b2f7c08d78a93a23ef9ef66b42c",
+      "size_bytes": 35948683
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.68.0-android-arm64-v8a.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.68.0/flutter-pos-odoo19-3.68.0-android-arm64-v8a.apk",
-      "sha256": "aa5eab32c8ba08ec7dd5d658f3a91e62ae736d230c704436b9f42ebef231451d",
-      "size_bytes": 26052784
+      "name": "flutter-pos-odoo19-3.71.4-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.4/flutter-pos-odoo19-3.71.4-android.apk",
+      "sha256": "ad8dbffaddb00fcfa6773836c0bbc65499aef94fd096d2b44c3d03f798a4a43e",
+      "size_bytes": 57069982
     }
   }
 }
