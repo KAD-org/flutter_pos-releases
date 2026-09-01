@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.71.4",
-  "build": 184,
-  "tag": "v19-3.71.4",
+  "version": "3.71.5",
+  "build": 185,
+  "tag": "v19-3.71.5",
   "source": {
-    "flutter_commit": "2157e70d40404bbecb31fb21d98f59f9e5ae2e54",
+    "flutter_commit": "7c95674636b790b68cf93c10bd0ef05e24fc20d5",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "1a059923ebdfdb63af8d36c4497dabf384e87500"
+    "backend_commit": "0d0f5c93bf1809937b31f987c153371d52813b1f"
   },
-  "published_at": "2026-09-01T11:14:30Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.71.4",
-  "body": "## [3.71.4] - 2026-09-01\n\n### Bug Fixes\n\n- publish universal Android updater APK\n- tighten Android update asset selection\n- sign Android release APKs with stable key\n- select compatible Android update APK\n\n### Other Changes\n\n- authenticate paired API fetch\n- detect SQLite development library precisely\n- install SQLite runtime for widget tests\n- Fix zero-total grocery checkout draft cleanup",
+  "published_at": "2026-09-01T14:10:58Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.71.5",
+  "body": "## [3.71.5] - 2026-09-01\n\n### Bug Fixes\n\n- refresh product details after edits\n- update edited products by primary key\n- omit image URL from product editor\n- restore main product image URL edit\n- omit invalid language on barcode updates\n- keep simple product barcode editing\n- refresh variants without template ids\n- limit variant edits to barcode\n- refresh localized product names after edits\n- edit variants from product details\n- hide order sync diagnostics from cashier screens\n- omit unchanged variant extra price writes\n- handle variant extras in product edit refresh\n- refresh variant state after product edits\n- scope POS product updates\n\n### Other Changes\n\n- Revert \"chore(windows): allow explicit multi-instance QA runs\"\n- allow explicit multi-instance QA runs\n- Preserve remote order line descriptions",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.71.4-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.4/flutter-pos-odoo19-3.71.4-windows-x64.zip",
-      "sha256": "27943f48e073f63d72e0e0ef33e4b94325d2ce75ad721db57d69b778f0cce6b2",
-      "size_bytes": 29778193
+      "name": "flutter-pos-odoo19-3.71.5-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.5/flutter-pos-odoo19-3.71.5-windows-x64.zip",
+      "sha256": "685540180210853d57bd4a90818a62bfd0bb16928b2bbdafa5be37cf57ea6816",
+      "size_bytes": 29784789
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.71.4-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.4/flutter-pos-odoo19-3.71.4-linux-x64.tar.gz",
-      "sha256": "c35bce5e828ad3720aece0b902a604524b698b2f7c08d78a93a23ef9ef66b42c",
-      "size_bytes": 35948683
+      "name": "flutter-pos-odoo19-3.71.5-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.5/flutter-pos-odoo19-3.71.5-linux-x64.tar.gz",
+      "sha256": "5a430e5d40879729cab7f7f391d179beb231dbc5154c1112d2e74e1b4bae5f10",
+      "size_bytes": 35954592
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.71.4-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.4/flutter-pos-odoo19-3.71.4-android.apk",
-      "sha256": "ad8dbffaddb00fcfa6773836c0bbc65499aef94fd096d2b44c3d03f798a4a43e",
-      "size_bytes": 57069982
+      "name": "flutter-pos-odoo19-3.71.5-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.71.5/flutter-pos-odoo19-3.71.5-android.apk",
+      "sha256": "6099b503e58ab77fe76f385b5779802bdf4f99dc302d6f88d377e428015c02c1",
+      "size_bytes": 57092454
     }
   }
 }
