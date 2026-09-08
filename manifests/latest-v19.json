@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.73.0",
-  "build": 192,
-  "tag": "v19-3.73.0",
+  "version": "3.74.0",
+  "build": 193,
+  "tag": "v19-3.74.0",
   "source": {
-    "flutter_commit": "e387231491521f7083217f38db3e486a8ca67df7",
+    "flutter_commit": "3d9c03eff741e90e3fbb8069e9498ab734808efb",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "1aa4aaa0f3d2817137a5402cee79af33c300643d"
+    "backend_commit": "bc72cd91cdd07f4f2b3a7832b609532dde3eb197"
   },
-  "published_at": "2026-09-06T06:46:19Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.73.0",
-  "body": "## [3.73.0] - 2026-09-06\n\n### Features\n\n- persist catalog order presets\n\n### Bug Fixes\n\n- import ProductSortMode in catalog order dialog\n- select catalog preset inline\n- defer catalog preset enter submission\n- await catalog before inline reorder\n- scope catalog ownership by account\n- retain hidden product order slots\n- clear catalog state across accounts\n- await catalog state before dialog snapshot\n- recover from catalog discard failure\n- restore product sort on reorder discard\n- complete category grid and legacy ownership\n- align complete category reorder baseline\n- align complete custom reorder scope\n- support catalog reorder in list view\n- discard unsaved catalog dialog edits\n- persist stable variant group order\n- bind queued catalog writes to POS\n- snapshot catalog only when reordering\n- harden catalog reorder persistence\n- snapshot each catalog reorder session\n- preserve all-products reorder scope\n- include descendants in catalog dialog\n- finalize catalog preset before layout save\n- resync restored catalog on discard\n- apply remote catalog atomically\n- retain descendant product reorder\n- synchronize catalog order safely\n- preserve catalog reorder state",
+  "published_at": "2026-09-08T13:31:31Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.74.0",
+  "body": "## [3.74.0] - 2026-09-08\n\n### Features\n\n- update branch sales ranking dialog to remove compact view and adjust scope provider\n- implement sales ranking view options and localization support\n- add regional sales ranking feature with localization support\n- update automatic close logic to submit zero ending cash for each currency\n- enhance automatic session close logic to handle suspended and active orders\n- add automatic session close settings and related functionality\n- implement automatic session close feature with configurable time\n\n### Bug Fixes\n\n- guard async cart updates\n\n### Other Changes\n\n- Fix customer selector sync page import\n- Use large compressed POS sync requests",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.73.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.73.0/flutter-pos-odoo19-3.73.0-windows-x64.zip",
-      "sha256": "186ededb3fe6956bf936c132b7a29e7c5af3ee7557da3f3d5f81e44e62ee0627",
-      "size_bytes": 30085133
+      "name": "flutter-pos-odoo19-3.74.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.74.0/flutter-pos-odoo19-3.74.0-windows-x64.zip",
+      "sha256": "f62cad6827b7022837a59c2285c748e9257432f6f42ae327f9609c89e5c44c7e",
+      "size_bytes": 30109302
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.73.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.73.0/flutter-pos-odoo19-3.73.0-linux-x64.tar.gz",
-      "sha256": "0b473f6c204bbbb163cfb6acab15fcc926fde613104b78d168e1cd8aa2f189aa",
-      "size_bytes": 36252278
+      "name": "flutter-pos-odoo19-3.74.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.74.0/flutter-pos-odoo19-3.74.0-linux-x64.tar.gz",
+      "sha256": "dce759535713e6f23559a6efe6997a046822320e2a28df0c483013b06837b48f",
+      "size_bytes": 36269831
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.73.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.73.0/flutter-pos-odoo19-3.73.0-android.apk",
-      "sha256": "29ebd13a830622894392e9b4d37990d5d7ee8b48a0d2a39d25ae4b1979d1910d",
-      "size_bytes": 57952158
+      "name": "flutter-pos-odoo19-3.74.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.74.0/flutter-pos-odoo19-3.74.0-android.apk",
+      "sha256": "d4e0e990d4c269c1f73fb2440ac158da76dceb502f7e574c0e0be7600b3d87e7",
+      "size_bytes": 58020006
     }
   }
 }
