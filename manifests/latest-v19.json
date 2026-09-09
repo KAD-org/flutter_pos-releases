@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.74.0",
-  "build": 193,
-  "tag": "v19-3.74.0",
+  "version": "3.75.0",
+  "build": 194,
+  "tag": "v19-3.75.0",
   "source": {
-    "flutter_commit": "3d9c03eff741e90e3fbb8069e9498ab734808efb",
+    "flutter_commit": "e6c0bf0eb56c638eeb2d693e9721cb6793c79fc4",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "bc72cd91cdd07f4f2b3a7832b609532dde3eb197"
+    "backend_commit": "af9668a2855428f993e599898b74b2badce93214"
   },
-  "published_at": "2026-09-08T13:31:31Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.74.0",
-  "body": "## [3.74.0] - 2026-09-08\n\n### Features\n\n- update branch sales ranking dialog to remove compact view and adjust scope provider\n- implement sales ranking view options and localization support\n- add regional sales ranking feature with localization support\n- update automatic close logic to submit zero ending cash for each currency\n- enhance automatic session close logic to handle suspended and active orders\n- add automatic session close settings and related functionality\n- implement automatic session close feature with configurable time\n\n### Bug Fixes\n\n- guard async cart updates\n\n### Other Changes\n\n- Fix customer selector sync page import\n- Use large compressed POS sync requests",
+  "published_at": "2026-09-09T10:21:38Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.75.0",
+  "body": "## [3.75.0] - 2026-09-09\n\n### Features\n\n- block manual cart quantity changes for ticket 371\n\n### Bug Fixes\n\n- hide restricted quantity controls across remaining screens\n- preserve Multipass quantities with manual edits blocked\n\n### Other Changes\n\n- Keep settings push behind successful fetch\n- Revert \"Merge pull request #367 from KAD-org/codex/aion-178-catalog-order-presets-v2\"",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.74.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.74.0/flutter-pos-odoo19-3.74.0-windows-x64.zip",
-      "sha256": "f62cad6827b7022837a59c2285c748e9257432f6f42ae327f9609c89e5c44c7e",
-      "size_bytes": 30109302
+      "name": "flutter-pos-odoo19-3.75.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.75.0/flutter-pos-odoo19-3.75.0-windows-x64.zip",
+      "sha256": "9e97b9ea0ed924cdaa0f2dceee15de1aa9facfb6a9443750be6269559efb8e95",
+      "size_bytes": 30095917
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.74.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.74.0/flutter-pos-odoo19-3.74.0-linux-x64.tar.gz",
-      "sha256": "dce759535713e6f23559a6efe6997a046822320e2a28df0c483013b06837b48f",
-      "size_bytes": 36269831
+      "name": "flutter-pos-odoo19-3.75.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.75.0/flutter-pos-odoo19-3.75.0-linux-x64.tar.gz",
+      "sha256": "b82949952e9ffd93d04369de10e79896a34c82100ca5f9c62d35a28307dc2590",
+      "size_bytes": 36252712
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.74.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.74.0/flutter-pos-odoo19-3.74.0-android.apk",
-      "sha256": "d4e0e990d4c269c1f73fb2440ac158da76dceb502f7e574c0e0be7600b3d87e7",
-      "size_bytes": 58020006
+      "name": "flutter-pos-odoo19-3.75.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.75.0/flutter-pos-odoo19-3.75.0-android.apk",
+      "sha256": "4e3dc697373e3fad523cacbdb5b4bab0af5ebf047a24cf5ac6b46d48d0f5ddab",
+      "size_bytes": 57955431
     }
   }
 }
