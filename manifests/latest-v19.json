@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.76.0",
-  "build": 206,
-  "tag": "v19-3.76.0",
+  "version": "3.77.0",
+  "build": 209,
+  "tag": "v19-3.77.0",
   "source": {
-    "flutter_commit": "e3853674c93d01c2a0d0a65012221296f90c0811",
+    "flutter_commit": "204e6c77e359d49f79dfffcccad3ba5d745d716c",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "3a6a405cc9e638bcae858ffd1c2e76f10cb9afea"
+    "backend_commit": "a406eb9df9d184349118fd4e52d933e89955e623"
   },
-  "published_at": "2026-09-10T14:04:01Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.76.0",
-  "body": "## [3.76.0] - 2026-09-10\n\n### Features\n\n- enhance closing report with closing control data and add tests\n- add Phone previous transactions experience\n- Enhance cart engine providers with improved state management and error handling\n- Enforce final contribution to settle remaining amount in split sessions\n- Enhance Phone POS functionality with improved diagnostics and error handling\n- rebaseline Phone/F20 flows through split payments\n\n### Bug Fixes\n\n- correct stale Phone payment review recovery\n- correct Phone split draft recovery and restore split UI\n\n### Other Changes\n\n- simplify product mutation test setup by removing unnecessary overrides\n- Fix partial gift card and voucher scans\n- Remove legacy Odoo POS vendor code",
+  "published_at": "2026-09-15T14:57:17Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.77.0",
+  "body": "## [3.77.0] - 2026-09-15\n\n### Features\n\n- add response sanitization for Nayax payment logs and corresponding tests\n- gate opening floats in settings and fix review findings\n- add informational opening cash floats to POS settings\n- edit customer internal notes\n- enhance stock checks with Track Inventory flag and update tests\n- Add stock check settings and functionality\n- enhance loyalty signup SMS messaging and localization support\n- require configured bag selection before payment\n- add SMS message template for kiosk loyalty signup\n- add full tank pump authorization\n- implement RFID-aware cart removals and enhance kiosk line handling\n- Add loyalty signup feature for kiosk\n\n### Bug Fixes\n\n- guard membership prompts and earn preview\n- preserve membership flows across returns\n- import desktop membership model\n- backfill cached customer membership\n- keep live membership state current\n- preserve customer notes across selection flows\n- harden held-order loyalty recovery\n- preserve supported login server formats\n- sanitize login errors for cashiers\n- populate payment DTO with card details for Nayax quick-pay flow\n- update extra amount handling in cash declaration dialog and add tests for opening count overrides\n- make counted opening cash authoritative\n- use accepted floats for opening balances and receipts\n- use Flutter 3.32 compatible switch color parameter\n- keep membership eligibility current\n- preserve loyalty state on held orders\n- handle malformed authentication error payloads\n- label full tank fueling progress\n- replace catalog settings polling with explicit refresh\n- reduce catalog reorder delay and document performance risks\n- limit return change currency choices\n- show full tank action for idle pumps\n- apply catalog presets live without full sync and reduce checkout latency\n\n### Other Changes\n\n- pin hardened membership API\n- update live login failure state\n- update backend payment timestamp conflict resolution\n- match catalog save button across Flutter versions\n- update backend smoke script lint fix reference\n- update backend inventory test fix reference\n- update backend PR validation reference\n- Guard preset rollback ownership and handle small legacy catalogs\n- Fix grouped product pin and hide behavior and update diagnostics\n- Improve catalog preset sync and legacy catalog compatibility\n- fix-pos-collapse-letter-panel-on-close\n- fix-pos-reset-catalog-selection-on-close\n- fix-pos-hide-failed-order-sync-notices\n- update flutter_pos_api gift card fix\n- find checkout bag by product ID in employee guard test\n- update backend reference for passing controller checks\n- Test club membership database upgrade\n- Add club membership renewal flow\n- Add cash change by currency support to ZReportSummaryDto and related tests\n- Guard queued catalog writes with captured account ownership\n- Reduce catalog drag scope and persist only required order prefix\n- Avoid POS config rebuilds on unrelated settings writes\n- Scope POS config cache to account and verify Tigapo checkout settings\n- Protect catalog lists, preset rollback and layout upload ownership\n- Use validated category for drops and correct polling diagnostics\n- Restore product sort when catalog dialog edits are discarded\n- Save catalog presets locally before background Odoo upload\n- Finish layout save before background settings upload\n- Fix catalog reorder session cleanup on POS exit\n- Add fake settings repository for testing add product mutation seam\n- clarify jira release-note field for ai workflow\n- clarify jira release-note field\n- document freeform jira release-note references\n- allow freeform jira release-note references\n- accept freeform jira release-note references\n- allow freeform jira release-note references\n- validate release note metadata\n- Fix Android scale lifecycle issues\n- Add ZReportSummaryDto and integrate into ClosingControlDto; update ReportZBuilder for enhanced reporting\n- align preset QA with current development pagination\n- restore named catalog presets and admin reorder controls\n- simplify stock checks by removing refund line conditions\n- bump flutter_pos_api submodule to fix locked route-manifest test\n- Cap summarized network log bodies at the existing length limit\n- Block mandatory bag checkout when no bag types are configured\n- Fix bag pricing, creation recovery, and pinned Flutter compatibility\n- Queue catalog bootstrap after unrelated sync\n- Bypass bag validation during payment recovery\n- Avoid provider reads during bag rule recompute\n- Allow checkout with existing bag selection\n- Allow checkout bags without fixed employee roster\n- Normalize mandatory bag configuration\n- Summarize large network logs\n- Fix bag checkout promotion timing\n- Add mandatory bag selection and sync safeguards\n- Address scale review comments\n- Query Android scale ports through native bridge\n- Fix Android scale reconnect handling\n- Add Android RS232 scale support",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.76.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.76.0/flutter-pos-odoo19-3.76.0-windows-x64.zip",
-      "sha256": "0b8bf4f3dab12d376da963b901e5fa474519e3fc033b87b9acf344bdae7e1dd0",
-      "size_bytes": 30400162
+      "name": "flutter-pos-odoo19-3.77.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.77.0/flutter-pos-odoo19-3.77.0-windows-x64.zip",
+      "sha256": "05d144206d4224faa18cad840cea6f4c4d2b29e52cbbae3609695b816036c397",
+      "size_bytes": 30620230
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.76.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.76.0/flutter-pos-odoo19-3.76.0-linux-x64.tar.gz",
-      "sha256": "e45eb38516298424bf8871e8998d10e9bc735fefe55f43354179f06c2b49e533",
-      "size_bytes": 36558435
+      "name": "flutter-pos-odoo19-3.77.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.77.0/flutter-pos-odoo19-3.77.0-linux-x64.tar.gz",
+      "sha256": "ff0e6ee0029f8eb10d0c0be6942583894da92dbbfce9e4372c1f1c4559b3d4f9",
+      "size_bytes": 36775639
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.76.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.76.0/flutter-pos-odoo19-3.76.0-android.apk",
-      "sha256": "449e465e70a3b88c2f5c57617b25cf2d20b0c9d3dc834965be1b36606c55975e",
-      "size_bytes": 58840856
+      "name": "flutter-pos-odoo19-3.77.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.77.0/flutter-pos-odoo19-3.77.0-android.apk",
+      "sha256": "a38145abdf567560425d06497d776fdf6dd2b1775fc419f8510634a98b420f02",
+      "size_bytes": 59478750
     }
   }
 }
