@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.89.1",
-  "build": 214,
-  "tag": "v19-3.89.1",
+  "version": "3.89.2",
+  "build": 215,
+  "tag": "v19-3.89.2",
   "source": {
-    "flutter_commit": "c1ea4617c73eb6d28691a1dcd6dc19a8122c89b2",
+    "flutter_commit": "1c5a1b4ad4d13cab503b400d060d9223ca152e00",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "c5f81a2c1cacb70de0d2de85223cf0c85bd1f929"
+    "backend_commit": "b127fe0c8505d780d4232eb5125ea6e91447f273"
   },
-  "published_at": "2026-09-27T11:39:50Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.89.1",
-  "body": "## [3.89.1] - 2026-09-27\n\n### Other Changes\n\n- authenticate paired API fetch\n- detect SQLite development library precisely\n- install SQLite runtime for widget tests",
+  "published_at": "2026-09-27T12:33:04Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.89.2",
+  "body": "## [3.89.2] - 2026-09-27\n\n### Bug Fixes\n\n- require MQTT update verification key",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.89.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.1/flutter-pos-odoo19-3.89.1-windows-x64.zip",
-      "sha256": "27fdd58cc51f3d936eee27a533c7b896c36d3aa3069fdf77a5fefc88966ffde9",
-      "size_bytes": 32421658
+      "name": "flutter-pos-odoo19-3.89.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.2/flutter-pos-odoo19-3.89.2-windows-x64.zip",
+      "sha256": "15cc1bbbcb0feca322e75495b266efbb1a48c5a258b928046145d71edd1e070c",
+      "size_bytes": 32453019
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.89.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.1/flutter-pos-odoo19-3.89.1-linux-x64.tar.gz",
-      "sha256": "e5ec3f64204e4bf1d0c5638e6d11f9b30c7815401affccafe461436a861bf154",
-      "size_bytes": 37653827
+      "name": "flutter-pos-odoo19-3.89.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.2/flutter-pos-odoo19-3.89.2-linux-x64.tar.gz",
+      "sha256": "52920812ed62aea660be25c6f3590342cecf5c873bccedf71e327d480c44ce43",
+      "size_bytes": 37687090
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.89.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.1/flutter-pos-odoo19-3.89.1-android.apk",
-      "sha256": "c40ee7119c35db788e90bd69a47fccc1786fe90073d34eeb94ebe2135451265f",
-      "size_bytes": 62255910
+      "name": "flutter-pos-odoo19-3.89.2-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.2/flutter-pos-odoo19-3.89.2-android.apk",
+      "sha256": "88c87ffeb82270d7a6092d74156a1df8f4f125c015250744bd7a2e4838b2e491",
+      "size_bytes": 62356362
     }
   }
 }
