@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.89.2",
-  "build": 215,
-  "tag": "v19-3.89.2",
+  "version": "3.90.0",
+  "build": 216,
+  "tag": "v19-3.90.0",
   "source": {
-    "flutter_commit": "1c5a1b4ad4d13cab503b400d060d9223ca152e00",
+    "flutter_commit": "96319c03bfd912132feefaee627d5a2cd5b211c1",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "b127fe0c8505d780d4232eb5125ea6e91447f273"
+    "backend_commit": "9e3ffc3faf4d43b57c2b82da9906775b41396640"
   },
-  "published_at": "2026-09-27T12:33:04Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.89.2",
-  "body": "## [3.89.2] - 2026-09-27\n\n### Bug Fixes\n\n- require MQTT update verification key",
+  "published_at": "2026-09-28T13:23:00Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.90.0",
+  "body": "## [3.90.0] - 2026-09-28\n\n### Features\n\n- enhance customer notes feature with titles and dismiss hints\n- add customer notes feature and related settings\n\n### Bug Fixes\n\n- validate combined Multipass total\n- separate benefit value from budget tender\n- keep benefit-only redemption balance neutral\n- accept benefit-only Multipass redemption\n\n### Other Changes\n\n- Improve cash declaration prompt and printed header (AION-366)",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.89.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.2/flutter-pos-odoo19-3.89.2-windows-x64.zip",
-      "sha256": "15cc1bbbcb0feca322e75495b266efbb1a48c5a258b928046145d71edd1e070c",
-      "size_bytes": 32453019
+      "name": "flutter-pos-odoo19-3.90.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.90.0/flutter-pos-odoo19-3.90.0-windows-x64.zip",
+      "sha256": "c585d82557f01903699d687f267619e4ee319759913a4df19360431de34ab2b7",
+      "size_bytes": 32459133
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.89.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.2/flutter-pos-odoo19-3.89.2-linux-x64.tar.gz",
-      "sha256": "52920812ed62aea660be25c6f3590342cecf5c873bccedf71e327d480c44ce43",
-      "size_bytes": 37687090
+      "name": "flutter-pos-odoo19-3.90.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.90.0/flutter-pos-odoo19-3.90.0-linux-x64.tar.gz",
+      "sha256": "751406df8beb9fc61d47c9e70c44f6107f64cb337ccaae49a4625aa95b0b8131",
+      "size_bytes": 37696438
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.89.2-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.89.2/flutter-pos-odoo19-3.89.2-android.apk",
-      "sha256": "88c87ffeb82270d7a6092d74156a1df8f4f125c015250744bd7a2e4838b2e491",
-      "size_bytes": 62356362
+      "name": "flutter-pos-odoo19-3.90.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.90.0/flutter-pos-odoo19-3.90.0-android.apk",
+      "sha256": "dd37aef063e6e1ec9da61ec3a54d6697b72a9697f05857560533281556cf6068",
+      "size_bytes": 62372513
     }
   }
 }
