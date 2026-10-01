@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.90.2",
-  "build": 218,
-  "tag": "v19-3.90.2",
+  "version": "3.91.0",
+  "build": 219,
+  "tag": "v19-3.91.0",
   "source": {
-    "flutter_commit": "722a94a78cc8a925bfeb84574d3e6e93c105daea",
+    "flutter_commit": "b38d591668ccae2cd96fa1f3b3e524d1714736c1",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "55224413d09848c656e2630f0f427dad5cc0e550"
+    "backend_commit": "23338ebea84bbab06990fe6ca73b733c9c412405"
   },
-  "published_at": "2026-09-28T21:00:15Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.90.2",
-  "body": "## [3.90.2] - 2026-09-28\n\n### Bug Fixes\n\n- include backlog in order-only telemetry\n- report deferred order backlog\n- bound register close sync retries\n\n### Other Changes\n\n- Revert \"fix(pos): validate combined Multipass total\"",
+  "published_at": "2026-10-01T09:40:50Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.91.0",
+  "body": "## [3.91.0] - 2026-10-01\n\n### Features\n\n- add cheque duplicate validation and localization updates\n- add cheque receipt details widget and integrate into payment dialogs\n\n### Bug Fixes\n\n- complete reconciled order side effects\n- reconcile recovered orders with exact backend evidence\n- reconcile recovered failed orders before retry\n- enhance discount precision handling in order history sync with Odoo\n- align order history totals and discount precision with Odoo\n- preserve finalized refund sync allocations\n- ignore phone formatting in customer search (AION-477)\n- recheck enrollment across app lifecycle\n- skip reminder after customer creation\n- hide cheque tenders for negative orders\n- reject non-finite cheque totals\n- preserve cheque details for gift-card activation receipts\n- address cheque payment review findings\n- honor POS sync policy for all datasets\n- clear orders after cancelled Nayax payments\n\n### Other Changes\n\n- validate release metadata\n- complete release metadata\n- refresh release metadata\n- show pending refund sync state\n- avoid timestamp collisions in refund route assertion\n- preserve grouped catalog on rank updates\n- clarify Z Report payment tables\n- Make applied cheque payment summaries read-only\n- Preserve keyboard layout and cheque review helpers\n- Add cheque payments with inline review and editing",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.90.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.90.2/flutter-pos-odoo19-3.90.2-windows-x64.zip",
-      "sha256": "926630b9913842d4756922d5f7eb20146f8c9270874fbf6fe5a11dbf8e7e9264",
-      "size_bytes": 32459920
+      "name": "flutter-pos-odoo19-3.91.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.0/flutter-pos-odoo19-3.91.0-windows-x64.zip",
+      "sha256": "59cb4e1c693b445ce0c79aef29f76adccc42080fce7516f43dff867777e1a346",
+      "size_bytes": 32531115
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.90.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.90.2/flutter-pos-odoo19-3.90.2-linux-x64.tar.gz",
-      "sha256": "5f848ce47cbb7442ed9f76263db5d7b7bb93880f1c2175a02325b9853072d2be",
-      "size_bytes": 37695993
+      "name": "flutter-pos-odoo19-3.91.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.0/flutter-pos-odoo19-3.91.0-linux-x64.tar.gz",
+      "sha256": "8b3b113b9b878d01dfa7203219715021a0d7297213f7a4091c9d8cc5b29716f3",
+      "size_bytes": 37761950
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.90.2-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.90.2/flutter-pos-odoo19-3.90.2-android.apk",
-      "sha256": "765ba008a0f2b0c6d244b34bd705fc3cb157b502f2caab6f0526b9916eb77439",
-      "size_bytes": 62374936
+      "name": "flutter-pos-odoo19-3.91.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.0/flutter-pos-odoo19-3.91.0-android.apk",
+      "sha256": "aee184885b04563149e0081f173ef533f40fe1fcd88de9371151db0b83d6f8dc",
+      "size_bytes": 62611452
     }
   }
 }
