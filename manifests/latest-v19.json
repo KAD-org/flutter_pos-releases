@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.91.2",
-  "build": 221,
-  "tag": "v19-3.91.2",
+  "version": "3.91.3",
+  "build": 222,
+  "tag": "v19-3.91.3",
   "source": {
-    "flutter_commit": "95dea574777dc36f57f089c6e8b6110ce6d637b0",
+    "flutter_commit": "35793d7b309370b85ce27746d09491a072c8e77e",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "c7fb664a4ee0bcabf267adc35bd58eb6f6b41215"
+    "backend_commit": "81f435fb6e5004e3537263f161760f1755b4ac96"
   },
-  "published_at": "2026-10-03T15:58:23Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.91.2",
-  "body": "## [3.91.2] - 2026-10-03\n\n### Bug Fixes\n\n- keep register close guarded during Shva report",
+  "published_at": "2026-10-03T16:26:25Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.91.3",
+  "body": "## [3.91.3] - 2026-10-03\n\n### Bug Fixes\n\n- cancel timed out Shva terminal requests",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.91.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.2/flutter-pos-odoo19-3.91.2-windows-x64.zip",
-      "sha256": "583eb07b9109df4b616b9709ff58874bdc178f3f4748484fad8d415004b93d3c",
-      "size_bytes": 32526432
+      "name": "flutter-pos-odoo19-3.91.3-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.3/flutter-pos-odoo19-3.91.3-windows-x64.zip",
+      "sha256": "c9e0dbbaf963bb5c5819ca77dbf942c88415813b94f1e883f79058147f3ab27f",
+      "size_bytes": 32532838
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.91.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.2/flutter-pos-odoo19-3.91.2-linux-x64.tar.gz",
-      "sha256": "e1630ca16a41de0fe5f3400bc2ea2c0ab038adb1b5d2032b45ee7d32a9060ebf",
-      "size_bytes": 37768664
+      "name": "flutter-pos-odoo19-3.91.3-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.3/flutter-pos-odoo19-3.91.3-linux-x64.tar.gz",
+      "sha256": "0621d97c107636ec6d1a114a659d4e9f7dfdb2b7ac84fe4764004aeee4a0f7a3",
+      "size_bytes": 37772293
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.91.2-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.2/flutter-pos-odoo19-3.91.2-android.apk",
-      "sha256": "2db5c2d1f54e93f3a9a17d4734329ec20b7e357b8bd9b07f87897cbdce32c133",
-      "size_bytes": 62627536
+      "name": "flutter-pos-odoo19-3.91.3-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.91.3/flutter-pos-odoo19-3.91.3-android.apk",
+      "sha256": "e1b0edc2d0cee61cd989da9c6e19c26522195922558dbb0d11f1bd34e44685ab",
+      "size_bytes": 62636949
     }
   }
 }
