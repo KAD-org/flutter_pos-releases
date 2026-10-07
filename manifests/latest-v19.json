@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.93.0",
-  "build": 226,
-  "tag": "v19-3.93.0",
+  "version": "3.94.0",
+  "build": 227,
+  "tag": "v19-3.94.0",
   "source": {
-    "flutter_commit": "35d6617e986cf61ac72d04a0822aa4b9f9cbbbb6",
+    "flutter_commit": "388c845874683ac6b377d1f9baa937840c013916",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "f354a54f38e0e99b702d348c1edd6db13364cd2b"
+    "backend_commit": "bfd8f4eff85ce15b9a4922312ed0a13f2ecb7360"
   },
-  "published_at": "2026-10-06T13:14:19Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.93.0",
-  "body": "## [3.93.0] - 2026-10-06\n\n### Features\n\n- allow five-digit item prices (AION-523)\n- enhance purchase recommendations with pending transfer handling\n- add purchase recommendations feature\n- complete resilient stock workflows\n- add inventory transfer exceeds available stock message in multiple languages and update error handling\n- implement inventory error message handling and add unit tests\n- add scroll controllers to receipt, transfer, and vendor return dialogs for improved scrolling experience\n- refactor receipt and transfer dialogs for improved line management and UI updates\n- enhance inventory settings and policies\n- add new transfer states in multiple languages and update related UI components\n- add employee selection for transfer receipt confirmation and enhance transfer validation\n- update internal transfer and receipt screen titles across multiple languages\n- add new inventory and transfer related strings in Russian, Arabic, English, Hebrew\n- enhance vendor return functionality with original receipt handling and configuration options\n- add vendor return functionality\n- Enhance receipt management with manual product addition and packaging options\n- Enhance receipt management with employee assignment and carton updates\n- Remove unused inventory navigation items from sidebar and app drawer\n- Implement internal transfer validation and enhance product deletion functionality\n- Add predefined discount buttons and localization support\n- Enhance internal transfer functionality with employee and receipt management\n- Refactor delivery and receipt dialogs to enhance UI and functionality\n- add warehouse selection to delivery and receipt dialogs\n- add internal transfer functionality and localization updates\n- add loading indicators and refresh functionality to deliveries, internal transfers, and receipts screens\n\n### Bug Fixes\n\n- enhance dropdowns in new transfer dialog for better usability\n- protect draft lines and recovery context\n- update showInventoryMenu handling and improve error management in settings sync\n- surface list API errors\n- preserve policies and remove deliveries from POS navigation\n- address permissions recovery navigation and receipt actions\n- preserve each selected row discount (AION-517)\n- display promotions beneath their applied items (AION-517)\n- update DropdownButtonFormField to use 'value' instead of 'initialValue'\n\n### Other Changes\n\n- Update subproject commit reference for flutter_pos_api",
+  "published_at": "2026-10-07T14:27:37Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.94.0",
+  "body": "## [3.94.0] - 2026-10-07\n\n### Features\n\n- add SignupSmsMessageField for SMS message input and update related tests fix(logging): improve busy retry handling for SQLite errors chore(database): set busy timeout for database connections\n- add durabilityAttemptId to KioskPaymentRecord and related classes\n- add functionality to cancel applied payment lines and update payment references\n\n### Bug Fixes\n\n- accelerate date-filtered history navigation\n- align matched history facets\n- preserve pagination merge semantics\n- align status search with displayed state\n- keep large history pagination bounded\n- reserve notice clearance once for SMS attachments\n- preserve barcode resolution when scaling receipt text\n- address bounded history review\n- align paper and SMS layout and reserve Weezmo notice space\n- bound order history and autosave work\n- move SMS voucher details below the barcode\n- preserve negative product rows in online history\n- paginate history and harden retries\n- hide reconciliation and failed-order notices\n- reduce checkout sync contention\n- update 'Try Again' to 'Rescan' in multiple languages feat(paytag): enhance checkout confirmation dialog with async handling chore(release): add new release binaries for version 3.85.6 and 3.85.7\n- update 'Try Again' to 'Rescan' in multiple languages feat(paytag): enhance checkout confirmation dialog with async handling chore(release): add new release binaries for version 3.85.6 and 3.85.7\n\n### Other Changes\n\n- bound local ledger queries",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.93.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.93.0/flutter-pos-odoo19-3.93.0-windows-x64.zip",
-      "sha256": "ee0c931250508ff86f6e57a5cf4b68fa2708ee95ccf6d95c5df2d78da9deb79f",
-      "size_bytes": 33211961
+      "name": "flutter-pos-odoo19-3.94.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.94.0/flutter-pos-odoo19-3.94.0-windows-x64.zip",
+      "sha256": "7e3e012db8de71d79784271045a86c331f8bfff7c4b497279da4df4ec01fdf95",
+      "size_bytes": 33287314
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.93.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.93.0/flutter-pos-odoo19-3.93.0-linux-x64.tar.gz",
-      "sha256": "86d2792e528ab33e8d96b4ad00bb71cd196d7431a5fc2342a2a566f93b6b9058",
-      "size_bytes": 38070926
+      "name": "flutter-pos-odoo19-3.94.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.94.0/flutter-pos-odoo19-3.94.0-linux-x64.tar.gz",
+      "sha256": "6a3f2c981b5d2af029a4579c55df75f95f284d351211342ab88570f35685625d",
+      "size_bytes": 38147702
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.93.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.93.0/flutter-pos-odoo19-3.93.0-android.apk",
-      "sha256": "b6b261f0e4d349ca7d1cb22f01e30aaf2aa61277b775b5a92fa3479a42996216",
-      "size_bytes": 137725102
+      "name": "flutter-pos-odoo19-3.94.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.94.0/flutter-pos-odoo19-3.94.0-android.apk",
+      "sha256": "b66baf540e3a2a0745ff6f6f52181b835cddc727a05b84b5b94d5437c43af5f2",
+      "size_bytes": 138167158
     }
   }
 }
