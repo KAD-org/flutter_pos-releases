@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.95.0",
-  "build": 228,
-  "tag": "v19-3.95.0",
+  "version": "3.96.2",
+  "build": 231,
+  "tag": "v19-3.96.2",
   "source": {
-    "flutter_commit": "c5b4b7c450779f638e5562b5224847fe2392e54f",
+    "flutter_commit": "2e26c76948b560a3ccabdb3c202801e1c5155fc0",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "7b6d371d2740266d35442eb9166f61090eb7406f"
+    "backend_commit": "2d054b1b9e949e2f4314c802751760e80971d556"
   },
-  "published_at": "2026-10-12T14:23:12Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.95.0",
-  "body": "## [3.95.0] - 2026-10-12\n\n### Features\n\n- add configurable customer city to NEXO POS\n- Implement receipt delivery service with SMS and email support\n- add employee PIN settings access feature\n\n### Bug Fixes\n\n- update checkout payload test to preserve all terminal card details\n- restore card details for desktop fast credit\n- preserve unknown city when editing restored customers\n- guard city migration on legacy settings table\n- preserve customer city across quick add and cache upgrades\n- persist quotation cancellation before remote release\n- guard quotation customer edits and isolate history search\n- respect settlement currency precision and reject negative linked quantities\n- render quotation receipts with frontend font asset\n- preserve additional barcode search\n- harden device data recovery\n- allow terminal reconciliation to complete\n- serialize product search filtering\n- cancel timed out Shva terminal requests\n- keep register close guarded during Shva report\n- keep POS recovery paths responsive\n\n### Other Changes\n\n- Enhance quotation save and print functionality with customer selection and metadata synchronization\n- Add unit tests for quotation pricing, saving, and printing functionality\n- Add encrypted device recovery collection\n- Fixed the flaky test. The token’s timestamp accidentally contained 812, triggering an incorrect failure.\n- update kiosk settings authentication fixtures (AION-407)",
+  "published_at": "2026-10-13T15:31:51Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.96.2",
+  "body": "## [3.96.2] - 2026-10-13\n\n### Bug Fixes\n\n- retain runner Gradle cache and configuration",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.95.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.95.0/flutter-pos-odoo19-3.95.0-windows-x64.zip",
-      "sha256": "ed28e7471e69393f6c5c40129f9b95bb310ce452561e5b8eba4831a1f9ba45ff",
-      "size_bytes": 33490967
+      "name": "flutter-pos-odoo19-3.96.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.96.2/flutter-pos-odoo19-3.96.2-windows-x64.zip",
+      "sha256": "21964c07a7c6980873e07cfbe40c244c573bbb07dd3307484173865e72886255",
+      "size_bytes": 33610962
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.95.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.95.0/flutter-pos-odoo19-3.95.0-linux-x64.tar.gz",
-      "sha256": "477b94cba18e0308ee76822caa340022380b8581312e391e1fc031c7bdf0fd9f",
-      "size_bytes": 38356502
+      "name": "flutter-pos-odoo19-3.96.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.96.2/flutter-pos-odoo19-3.96.2-linux-x64.tar.gz",
+      "sha256": "995138484098ad1b678d0ae91e401a993579ce47b4b3c234ee6f421f72261b6b",
+      "size_bytes": 38470455
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.95.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.95.0/flutter-pos-odoo19-3.95.0-android.apk",
-      "sha256": "9118c3c75c42a5d72a61b7525dd0341a0d69f624d558eb4612cce999322b394a",
-      "size_bytes": 139499061
+      "name": "flutter-pos-odoo19-3.96.2-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.96.2/flutter-pos-odoo19-3.96.2-android.apk",
+      "sha256": "701782c42b870aaaf5d92d964c18ec0f024555cdfc8885c366e9d41202d1dc05",
+      "size_bytes": 140465049
     }
   }
 }
