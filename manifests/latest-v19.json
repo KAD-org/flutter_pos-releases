@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.96.2",
-  "build": 231,
-  "tag": "v19-3.96.2",
+  "version": "3.97.0",
+  "build": 232,
+  "tag": "v19-3.97.0",
   "source": {
-    "flutter_commit": "2e26c76948b560a3ccabdb3c202801e1c5155fc0",
+    "flutter_commit": "ce58f52269692a7062ac149dc0ed65a54f1daa78",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "2d054b1b9e949e2f4314c802751760e80971d556"
+    "backend_commit": "0ba7ecb1bc641fcd47f3404564ea744faf790607"
   },
-  "published_at": "2026-10-13T15:31:51Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.96.2",
-  "body": "## [3.96.2] - 2026-10-13\n\n### Bug Fixes\n\n- retain runner Gradle cache and configuration",
+  "published_at": "2026-10-15T12:12:21Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.97.0",
+  "body": "## [3.97.0] - 2026-10-15\n\n### Features\n\n- implement rescan functionality and improve basket synchronization\n- print purchase orders with the reference Hebrew layout\n- declare forecourt opening cash in POS (AION-71)\n- add configurable payment method button size and height\n- improve pump layouts and compact cards (AION-83)\n- prompt before adding digital club membership\n\n### Bug Fixes\n\n- preserve Code 128 fallback for invalid EAN data\n- preserve coupons on explicit history resend\n- harden deferred benefit delivery\n- keep benefit delivery alive during print\n- prevent duplicate benefit delivery\n- validate orders before storing benefits\n- serialize deferred benefit recovery\n- keep SMS independent of coupon printing\n- reconcile deferred benefit delivery\n- align frontend and addon versions\n- isolate benefit delivery retries\n- schedule deferred prompt frame\n- reuse register cash selectors for forecourt opening\n- reserve barcode height before fitting captions\n- recover deferred benefit delivery\n- isolate desktop prompt retries\n- bundle Hebrew-capable fonts for consistent raster output\n- retain permanent initial rejection\n- retain deferred receipt delivery\n- retain SMS delivery account\n- scope delivery state by account\n- classify loyalty mutation rejection\n- clear delivery state on account reset\n- recheck registration suppression\n- defer queued membership coupon delivery\n- prefer latest queued loyalty state\n- retry live loyalty updates\n- make benefit delivery durable\n- close registration prompt races\n- honor benefit delivery settings\n- avoid stale auto-add prompts\n- defer benefit delivery safely\n- scope registration prompt suppression\n- retain latest loyalty refresh\n- retain delayed benefit delivery\n- handle rejected phone refresh\n- support remote order benefit resend\n- retain actionable completions without pump topology\n- preserve discovered EV nozzle for authorization\n- keep controller pump controls during catalog failures\n- show retained active pumps alongside discovered devices\n- classify discovered chargers from EV nozzle data\n- localize bottom pump actions and hold accessibility\n- expose pending PAP retries in vertical pump layouts\n- preserve recorded amount when adding completed pump sales\n- preserve discovered topology when mounting pump panel\n- classify EV devices during production pump initialization\n- close digital registration dialogs safely\n- restore POS title bar after fullscreen and restarts\n- evaluate membership prompts on route resume\n- complete membership prompts across POS layouts\n- keep membership completion notice accurate\n- reconcile benefit delivery and network printing\n- scope membership benefit receipt delivery by order\n\n### Other Changes\n\n- pin merged forecourt opening API\n- Revert \"fix(receipts): keep benefit delivery alive during print\"\n- Keep product and cart flex positive during live layout resizing\n- Show localized full tank limit on compact pump cards\n- Localize pump authorization errors and retain recovery indicators\n- Fix retained pump routing, controls, and production layouts\n- assert mutation outcome classification\n- run registration route race in CI\n- validate dialog-based full tank authorization\n- simplify customer action button layout\n- Add localization for loyalty signup button in multiple languages\n- Enhance Paytag processing to prevent event replay during payment and add corresponding tests\n- Fix customer removal handling in automatic mutation provider and add corresponding test\n- Add Paytag exchange and scan queue functionality with tests",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.96.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.96.2/flutter-pos-odoo19-3.96.2-windows-x64.zip",
-      "sha256": "21964c07a7c6980873e07cfbe40c244c573bbb07dd3307484173865e72886255",
-      "size_bytes": 33610962
+      "name": "flutter-pos-odoo19-3.97.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.0/flutter-pos-odoo19-3.97.0-windows-x64.zip",
+      "sha256": "690f94a573278eac0cae70ec5d8113bb47ebe86c282b6743ccf56cc917827104",
+      "size_bytes": 34208603
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.96.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.96.2/flutter-pos-odoo19-3.96.2-linux-x64.tar.gz",
-      "sha256": "995138484098ad1b678d0ae91e401a993579ce47b4b3c234ee6f421f72261b6b",
-      "size_bytes": 38470455
+      "name": "flutter-pos-odoo19-3.97.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.0/flutter-pos-odoo19-3.97.0-linux-x64.tar.gz",
+      "sha256": "862115149e48650e7a715ea2e2f64712ee4d9d9a30657181ab4e396c5c26d150",
+      "size_bytes": 39052161
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.96.2-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.96.2/flutter-pos-odoo19-3.96.2-android.apk",
-      "sha256": "701782c42b870aaaf5d92d964c18ec0f024555cdfc8885c366e9d41202d1dc05",
-      "size_bytes": 140465049
+      "name": "flutter-pos-odoo19-3.97.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.0/flutter-pos-odoo19-3.97.0-android.apk",
+      "sha256": "0cd59e431d43f9d66e96c7d018541b62ba404084b69f16197399a9b3e5a22562",
+      "size_bytes": 141924860
     }
   }
 }
