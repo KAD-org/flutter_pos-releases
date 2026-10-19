@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.97.1",
-  "build": 233,
-  "tag": "v19-3.97.1",
+  "version": "3.97.2",
+  "build": 234,
+  "tag": "v19-3.97.2",
   "source": {
-    "flutter_commit": "0414313a9b152e3185186c1bffb245a7373f3bc9",
+    "flutter_commit": "702265e74d90e584c6385eeea251c3d56866aa2f",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "64edbb5b2ebf7e6a4d413db7a205ebe19e698ae5"
+    "backend_commit": "6f7ed79bb5acb83e3aab096e5e2e99fed1f1fd49"
   },
-  "published_at": "2026-10-15T12:51:33Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.97.1",
-  "body": "## [3.97.1] - 2026-10-15\n\n### Bug Fixes\n\n- allocate order benefits after item discounts\n- show transaction discounts once across purchase receipts\n\n### Other Changes\n\n- Add unit tests for loyalty program discounts and promotion breakdown\n- tidy promotion display QA notes",
+  "published_at": "2026-10-19T08:55:01Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.97.2",
+  "body": "## [3.97.2] - 2026-10-19\n\n### Bug Fixes\n\n- avoid reopening drawer after change popup\n- preserve original price alongside discounted final price\n- send discounted amount in item price\n- serialize return admission and avoid duplicate price lookups\n- implement return price resolution for cart lines\n- preserve RFID paid prices across POS returns\n\n### Other Changes\n\n- remove deprecated showDetailedChangePopup setting and update payment dialog logic\n- update API reference after route manifest fix",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.97.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.1/flutter-pos-odoo19-3.97.1-windows-x64.zip",
-      "sha256": "c3bdfa9f02b94f8929577f885beb06d301a93aa659e8c2cc7e4f13c28c89c782",
-      "size_bytes": 34227025
+      "name": "flutter-pos-odoo19-3.97.2-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.2/flutter-pos-odoo19-3.97.2-windows-x64.zip",
+      "sha256": "2fb460adfa8227bd10c7e70c9fd16088cda31bfe0890736b7e1332fec355d6a4",
+      "size_bytes": 34220464
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.97.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.1/flutter-pos-odoo19-3.97.1-linux-x64.tar.gz",
-      "sha256": "b7a974d98bd4dbe920d3721e1894483cb14f124ba4d046fd1b3def34eb471dd8",
-      "size_bytes": 39073598
+      "name": "flutter-pos-odoo19-3.97.2-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.2/flutter-pos-odoo19-3.97.2-linux-x64.tar.gz",
+      "sha256": "7180223dc1ae9d93f729e5787f9bc6fb25868579c5736dcdfd99e5b5bcac00ea",
+      "size_bytes": 39064025
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.97.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.1/flutter-pos-odoo19-3.97.1-android.apk",
-      "sha256": "349a2ebdaf5d1f45af52302c1bad0eaaa04d8ccd119ffd32eb0c00c18c5d1087",
-      "size_bytes": 142152948
+      "name": "flutter-pos-odoo19-3.97.2-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.2/flutter-pos-odoo19-3.97.2-android.apk",
+      "sha256": "bb7cee03444ea20b01a93981962b9da988e5b01aa5f5c75ec25082d69bf5e5cd",
+      "size_bytes": 142136680
     }
   }
 }
