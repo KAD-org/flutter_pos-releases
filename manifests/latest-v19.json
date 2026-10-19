@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.97.2",
-  "build": 234,
-  "tag": "v19-3.97.2",
+  "version": "3.98.0",
+  "build": 235,
+  "tag": "v19-3.98.0",
   "source": {
-    "flutter_commit": "702265e74d90e584c6385eeea251c3d56866aa2f",
+    "flutter_commit": "dc6b18c171c2271970107ece7adf2bcf990531e7",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "6f7ed79bb5acb83e3aab096e5e2e99fed1f1fd49"
+    "backend_commit": "e3348dc81d7670907f7e4c6a623e697053f663d8"
   },
-  "published_at": "2026-10-19T08:55:01Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.97.2",
-  "body": "## [3.97.2] - 2026-10-19\n\n### Bug Fixes\n\n- avoid reopening drawer after change popup\n- preserve original price alongside discounted final price\n- send discounted amount in item price\n- serialize return admission and avoid duplicate price lookups\n- implement return price resolution for cart lines\n- preserve RFID paid prices across POS returns\n\n### Other Changes\n\n- remove deprecated showDetailedChangePopup setting and update payment dialog logic\n- update API reference after route manifest fix",
+  "published_at": "2026-10-19T14:19:26Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.98.0",
+  "body": "## [3.98.0] - 2026-10-19\n\n### Features\n\n- configure required POS address fields (AION-603)\n\n### Bug Fixes\n\n- align email and birthday inputs (AION-603)\n- group address fields in customer popup (AION-603)\n- restore customer address translations (AION-603)\n- allow empty Nayax SHVA batches\n- acknowledge Nayax periodic SHVA batches\n- recover stalled Windows scale connections\n\n### Other Changes\n\n- pin AION-603 controller metric fix",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.97.2-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.2/flutter-pos-odoo19-3.97.2-windows-x64.zip",
-      "sha256": "2fb460adfa8227bd10c7e70c9fd16088cda31bfe0890736b7e1332fec355d6a4",
-      "size_bytes": 34220464
+      "name": "flutter-pos-odoo19-3.98.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.98.0/flutter-pos-odoo19-3.98.0-windows-x64.zip",
+      "sha256": "f99393623c0e998f0dbd6e0178b474bfca6ff16ddb6670a4e2936f57fdf3ad96",
+      "size_bytes": 34236569
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.97.2-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.2/flutter-pos-odoo19-3.97.2-linux-x64.tar.gz",
-      "sha256": "7180223dc1ae9d93f729e5787f9bc6fb25868579c5736dcdfd99e5b5bcac00ea",
-      "size_bytes": 39064025
+      "name": "flutter-pos-odoo19-3.98.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.98.0/flutter-pos-odoo19-3.98.0-linux-x64.tar.gz",
+      "sha256": "e0eb945bbf0f15792a5bec11cd65d8b52a86ccddc18d202c7f2496b2cfac5482",
+      "size_bytes": 39078209
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.97.2-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.97.2/flutter-pos-odoo19-3.97.2-android.apk",
-      "sha256": "bb7cee03444ea20b01a93981962b9da988e5b01aa5f5c75ec25082d69bf5e5cd",
-      "size_bytes": 142136680
+      "name": "flutter-pos-odoo19-3.98.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.98.0/flutter-pos-odoo19-3.98.0-android.apk",
+      "sha256": "d8137fd8c8a37f714cb7962368164c90b857946ca103d71f97c900054098f1be",
+      "size_bytes": 142169412
     }
   }
 }
