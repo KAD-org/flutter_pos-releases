@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.98.4",
-  "build": 2236,
-  "tag": "v19-3.98.4",
+  "version": "3.99.0",
+  "build": 2237,
+  "tag": "v19-3.99.0",
   "source": {
-    "flutter_commit": "274da36a5e83b490baa52c475fc96bc257badbbd",
+    "flutter_commit": "358d3ab718a87a421e782bca71ba10ed425ed192",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "c918ef19055c4e28f362deb718a944b070cdffa4"
+    "backend_commit": "785674eaf8f42641e78fab6e7364db0a76dd93ef"
   },
-  "published_at": "2026-10-21T14:03:04Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.98.4",
-  "body": "## [3.98.4] - 2026-10-21\n\n### Bug Fixes\n\n- canonicalize receipt owners and fence delayed 401 recovery\n- keep login pending until account setup completes\n- make account transitions durable and preserve canonical caches\n- preserve product attribution for line total approvals\n- include approval products and total discount scope (internal 22)\n- preserve POS setup during session reauthentication\n\n### Other Changes\n\n- keep cleanup failure fixtures lint clean\n- align desktop smoke controller interfaces\n- update login fixtures for recovery lifecycle",
+  "published_at": "2026-10-22T14:00:13Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.99.0",
+  "body": "## [3.99.0] - 2026-10-22\n\n### Features\n\n- open manual weight entry without a connected scale (AION-620)\n\n### Bug Fixes\n\n- cache search names off UI thread (AION-602)\n- search products in selected language (AION-602)",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.98.4-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.98.4/flutter-pos-odoo19-3.98.4-windows-x64.zip",
-      "sha256": "16729c7b6aa007e7585c85ec35bba700f929f5559573e69de45859161544f976",
-      "size_bytes": 34249597
+      "name": "flutter-pos-odoo19-3.99.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.99.0/flutter-pos-odoo19-3.99.0-windows-x64.zip",
+      "sha256": "e6b0a75cac19711da04f55c61afa0b6bf07fe193342033e9b83f7a9b91d8c898",
+      "size_bytes": 34251548
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.98.4-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.98.4/flutter-pos-odoo19-3.98.4-linux-x64.tar.gz",
-      "sha256": "0fcfbee17c7b6abb3a2bf0ca8bb955f4b340b97d7d781ff0219c1ac8b96c692d",
-      "size_bytes": 39094061
+      "name": "flutter-pos-odoo19-3.99.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.99.0/flutter-pos-odoo19-3.99.0-linux-x64.tar.gz",
+      "sha256": "8d9484c4a77681937f3a5f5317931969871422d30cc12427528714f25bb3e05a",
+      "size_bytes": 39095151
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.98.4-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.98.4/flutter-pos-odoo19-3.98.4-android.apk",
-      "sha256": "08406ad7a7d0002feace1cd1ab8999bfff872896f8545c9f111fcd7c08929210",
-      "size_bytes": 142218624
+      "name": "flutter-pos-odoo19-3.99.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.99.0/flutter-pos-odoo19-3.99.0-android.apk",
+      "sha256": "08fb22fa4a6e150074a5373f7d3c43d1ebb3dd51e7736a07314232cd309bebbd",
+      "size_bytes": 142218456
     }
   }
 }
