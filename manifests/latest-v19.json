@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.99.0",
-  "build": 2237,
-  "tag": "v19-3.99.0",
+  "version": "3.100.0",
+  "build": 2238,
+  "tag": "v19-3.100.0",
   "source": {
-    "flutter_commit": "358d3ab718a87a421e782bca71ba10ed425ed192",
+    "flutter_commit": "5d6c69d2fb3372e48cc0c84eedcb364caabd12de",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "785674eaf8f42641e78fab6e7364db0a76dd93ef"
+    "backend_commit": "e6a2f498e7d3cb206889ccd0abdce8eef3f90622"
   },
-  "published_at": "2026-10-22T14:00:13Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.99.0",
-  "body": "## [3.99.0] - 2026-10-22\n\n### Features\n\n- open manual weight entry without a connected scale (AION-620)\n\n### Bug Fixes\n\n- cache search names off UI thread (AION-602)\n- search products in selected language (AION-602)",
+  "published_at": "2026-10-26T14:53:08Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.100.0",
+  "body": "## [3.100.0] - 2026-10-26\n\n### Features\n\n- honor company switches for fuel prepay and waste\n- use receive-on-account documents for fuel prepayments\n- add durable prepay fuel checkout and pump settlement\n\n### Bug Fixes\n\n- show saved VAT on refund previews\n- remove invoice settlement retry action\n- preserve posted discount allocations\n- use server-only advance close recovery\n- retain failed uploads without blocking register close\n- recover held payment retries and card details\n- retry failed prepayment connections and resume sales\n- distinguish pending prepay sync when closing register\n- improve search experience with loading indicator and query handling\n- enhance transaction history search with total count accuracy and pagination improvements\n- add isPageLoading state to enhance transaction history search experience\n- update transaction history search to use retained slice offset for improved pagination\n- align prepay slip items and print fuel PPU\n- enhance transaction history search by retaining page window during loading\n- defer automatic selection until history page loads\n- stabilize transaction history search (AION-644)\n- reconcile operator-verified delivered fuel\n- resolve stale finals from recorded live totals\n- prevent and reconcile stale fuel allocations\n- preserve captured merchandise discount percentages\n- preserve proven sale and refund discounts\n- admit equal fills after accepted ordinary starts\n- retain valid empty refund workspace\n- preserve refund remainder and prepay document choice\n- preserve prepay source ownership in ordinary fills\n- expose settlement retry for verified local invoices\n- verify partial refunds and retry original invoice settlement\n- match native tax rounding and freeze refund amounts\n- preserve completion ownership and refund evidence\n- recover prepaid tenders with frozen currency precision\n- preserve prepay fiscal scope and exact accounting totals\n- keep rejected prepay retries attached to paid tickets\n- reconcile prepay progress and controller completion\n- stabilize prepay handoff and legacy FCC responses\n- prevent pump authorization after completed underfill\n- bind prepay settlement to original payment context\n- preserve prepay fiscal choices and account ownership\n- settle no-service prepays and cancel unconfirmed refunds\n\n### Other Changes\n\n- align prepay recovery close expectations\n- update point 2/3\n- align Waste and EV widget fixtures with feature guards\n- repair fuel and refund CI fixtures\n- keep register close recovery guidance general\n- 6. Summary Rows at the Bottom of the Report\n- 5. Total Receipts Header\n- 4. Cash in ILS\n- 3. Foreign Currencies – USD and EUR\n- 2. Payment Methods Section\n- 1. Items Header and Summary Corrections\n- Link native order-note repair and failed prepay sync handoff\n- Fix cash drawer reminder navigation races\n- Accept current pump fuelEnd as authoritative for prepayments\n- Authorize held prepay corrections with admin password and order notes\n- record 84 POS cases and invoice settlements\n- record 67 POS cases and equal-fill recovery\n- record 53-case sync and invoice verification\n- verify 48 POS cases and prepay accounting\n- verify mixed prepayments through 33 POS cases\n- record 31 reconciled POS cases and native repairs\n- record POS100 recovery and accounting blockers\n- trace quick checkout admission and gate outcomes\n- validate prepay goldens against native Linux baselines",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.99.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.99.0/flutter-pos-odoo19-3.99.0-windows-x64.zip",
-      "sha256": "e6b0a75cac19711da04f55c61afa0b6bf07fe193342033e9b83f7a9b91d8c898",
-      "size_bytes": 34251548
+      "name": "flutter-pos-odoo19-3.100.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.100.0/flutter-pos-odoo19-3.100.0-windows-x64.zip",
+      "sha256": "c87aca73a7233ad83a5f293d31f49aa1087e80a7e3de201e38b4de1d5c342bbc",
+      "size_bytes": 34665704
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.99.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.99.0/flutter-pos-odoo19-3.99.0-linux-x64.tar.gz",
-      "sha256": "8d9484c4a77681937f3a5f5317931969871422d30cc12427528714f25bb3e05a",
-      "size_bytes": 39095151
+      "name": "flutter-pos-odoo19-3.100.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.100.0/flutter-pos-odoo19-3.100.0-linux-x64.tar.gz",
+      "sha256": "4f7ed7b3d22a5fbcdea6b948a0639cb357342bab5a6596d015565999b96d2e40",
+      "size_bytes": 39498918
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.99.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.99.0/flutter-pos-odoo19-3.99.0-android.apk",
-      "sha256": "08fb22fa4a6e150074a5373f7d3c43d1ebb3dd51e7736a07314232cd309bebbd",
-      "size_bytes": 142218456
+      "name": "flutter-pos-odoo19-3.100.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.100.0/flutter-pos-odoo19-3.100.0-android.apk",
+      "sha256": "41a7d637270af1755ba89c57d1bafda3cab79ccf4b6e770c67d6c6264680a7e8",
+      "size_bytes": 145480204
     }
   }
 }
