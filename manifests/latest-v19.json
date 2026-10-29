@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.101.0",
-  "build": 2239,
-  "tag": "v19-3.101.0",
+  "version": "3.102.0",
+  "build": 2240,
+  "tag": "v19-3.102.0",
   "source": {
-    "flutter_commit": "30d9dd025cdfefc558e4584197f80ceedcfab532",
+    "flutter_commit": "4455cbc50c436b46e22485c0bfe762fe11a71abb",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "22f495cb1b1a65d46d6ab6641f54204653406e77"
+    "backend_commit": "f40f7709aba2e610042544866253d8e408fe3e81"
   },
-  "published_at": "2026-10-27T17:27:53Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.101.0",
-  "body": "## [3.101.0] - 2026-10-27\n\n### Features\n\n- add customer selection and new order shortcuts (NEXO-656)\n\n### Bug Fixes\n\n- stabilize local keyboard focus and quantity drafts\n- enable NEXO keyboard throughout label printing\n- restore catalog filters and NEXO keyboard\n- keep refund gift cards out of redemption flow (NEXO-656)\n- reset shortcut ownership on POS and account changes (NEXO-656)\n- enable Android USB sticker printing\n\n### Other Changes\n\n- fix nullable JSON argument in shortcut sync test (NEXO-656)\n- Revert \"fix(pos): keep refund gift cards out of redemption flow (NEXO-656)\"\n- Enabled shortcuts\n- Add localization support for kiosk loyalty signup phone dialogs and update UI components",
+  "published_at": "2026-10-29T14:47:39Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.102.0",
+  "body": "## [3.102.0] - 2026-10-29\n\n### Features\n\n- select workflow and authenticate deposit employee\n- update cash deposit localization and remove reverse functionality\n- add cash deposit localization and central cash box support\n- add cash deposits feature with localization and service integration\n\n### Bug Fixes\n\n- preserve restored route while toggle loads\n- count tier sequences toward transaction limit\n- repeat tier sequence within transaction limit\n\n### Other Changes\n\n- AION-677: Respect effective preset when styling quick buttons\n- AION-677: Align quick button styling across retail presets\n- align tier limit regression with sequence semantics\n- update cash deposits backend with CI fix",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.101.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.101.0/flutter-pos-odoo19-3.101.0-windows-x64.zip",
-      "sha256": "727315770824d22a986ddd118a7fc7f761b899889e256a2b85004036ad9cbff1",
-      "size_bytes": 34698490
+      "name": "flutter-pos-odoo19-3.102.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.102.0/flutter-pos-odoo19-3.102.0-windows-x64.zip",
+      "sha256": "5293a04e5b61c702850cfd14604962bf4a7003046fd4cb59a874da630d6f2242",
+      "size_bytes": 34754323
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.101.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.101.0/flutter-pos-odoo19-3.101.0-linux-x64.tar.gz",
-      "sha256": "29f3771f8086328d852c83364040b50a016fdd6dd6ec5865ef3e8402dc241bbd",
-      "size_bytes": 39537382
+      "name": "flutter-pos-odoo19-3.102.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.102.0/flutter-pos-odoo19-3.102.0-linux-x64.tar.gz",
+      "sha256": "9c80ac68a29568e3a7931df712e2f95ee344cc11097b424e03c45f2aaa5a2d75",
+      "size_bytes": 39597435
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.101.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.101.0/flutter-pos-odoo19-3.101.0-android.apk",
-      "sha256": "a94bdccde80b5ec7e2308854bb22845fdd7814ca483d682a904b31e97ceb291f",
-      "size_bytes": 145642980
+      "name": "flutter-pos-odoo19-3.102.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.102.0/flutter-pos-odoo19-3.102.0-android.apk",
+      "sha256": "8250191a6992b8071042f7e49a8f5484d5c821110d3c85cae34661943b1533c0",
+      "size_bytes": 146134468
     }
   }
 }
