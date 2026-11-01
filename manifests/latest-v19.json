@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.102.0",
-  "build": 2240,
-  "tag": "v19-3.102.0",
+  "version": "3.103.1",
+  "build": 2241,
+  "tag": "v19-3.103.1",
   "source": {
-    "flutter_commit": "4455cbc50c436b46e22485c0bfe762fe11a71abb",
+    "flutter_commit": "a18b23fca081695cc187ebc742e2950880ea62f5",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "f40f7709aba2e610042544866253d8e408fe3e81"
+    "backend_commit": "609ca9aede0d8983c384399cc69a06feadab4850"
   },
-  "published_at": "2026-10-29T14:47:39Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.102.0",
-  "body": "## [3.102.0] - 2026-10-29\n\n### Features\n\n- select workflow and authenticate deposit employee\n- update cash deposit localization and remove reverse functionality\n- add cash deposit localization and central cash box support\n- add cash deposits feature with localization and service integration\n\n### Bug Fixes\n\n- preserve restored route while toggle loads\n- count tier sequences toward transaction limit\n- repeat tier sequence within transaction limit\n\n### Other Changes\n\n- AION-677: Respect effective preset when styling quick buttons\n- AION-677: Align quick button styling across retail presets\n- align tier limit regression with sequence semantics\n- update cash deposits backend with CI fix",
+  "published_at": "2026-11-01T19:40:11Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.103.1",
+  "body": "## [3.103.1] - 2026-11-01\n\n### Bug Fixes\n\n- include receipt return state guard (AION-684)\n- resume pending pricing after same-list customer switches\n- preserve latest gift selection across lookups\n- bound product subscriptions and preserve cart ownership\n- await local registration product lookup\n- address scoped hydration review findings\n- show saved receipt before supplementary checkout work\n- require invoice customer before payment and trace receipt delay\n- preserve order search focus and show receipts sooner\n- support catalog pricing when POS has no default pricelist\n- prepare customer pricing before the first product tap\n- allow verified settings access in local release tests\n- guard checkout scrolling and stale startup work\n- preserve queued selections across ranking refreshes\n- keep catalog refreshes stable and cancel stale additions\n- finish scoped reads and local volume testing\n- preserve cart and exact-customer identity across scoped reads\n- preserve saved fuel proof during catalog upgrade\n- reduce catalog sync and rule refresh stalls\n\n### Other Changes\n\n- verify existing repair rejection rollback\n- align prepared versions and repair rejection guard\n- align partial receipt QA with source returns (AION-684)\n- AION-684: Return unreceived internal transfer quantities to source\n- fix paged kiosk quantity fixture\n- bound search work and page every history section\n- index history searches and isolate tab queries\n- add portable local order volume fixture\n- restore normal laptop launch configurations\n- normalize local fixture schema whitespace\n- bound local reads and apply approved sale-date retention\n- pin company-safe backend initialization fix\n- pin verified compact backend 97.3\n- scope support lookups and keep local test transports isolated\n- share lightweight catalog facts across browse and rules\n- compact data, scoped catalog reads and approved retention (AION-618)",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.102.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.102.0/flutter-pos-odoo19-3.102.0-windows-x64.zip",
-      "sha256": "5293a04e5b61c702850cfd14604962bf4a7003046fd4cb59a874da630d6f2242",
-      "size_bytes": 34754323
+      "name": "flutter-pos-odoo19-3.103.1-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.103.1/flutter-pos-odoo19-3.103.1-windows-x64.zip",
+      "sha256": "7424eeb616e64fe54b36d62e018323a29c679209eea5d1f8929a50c4762867b3",
+      "size_bytes": 34992764
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.102.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.102.0/flutter-pos-odoo19-3.102.0-linux-x64.tar.gz",
-      "sha256": "9c80ac68a29568e3a7931df712e2f95ee344cc11097b424e03c45f2aaa5a2d75",
-      "size_bytes": 39597435
+      "name": "flutter-pos-odoo19-3.103.1-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.103.1/flutter-pos-odoo19-3.103.1-linux-x64.tar.gz",
+      "sha256": "37aa8609da686c44d65244caf3bfe69ae03a8566c082be737a0e6d6f2b7c06ae",
+      "size_bytes": 39816558
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.102.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.102.0/flutter-pos-odoo19-3.102.0-android.apk",
-      "sha256": "8250191a6992b8071042f7e49a8f5484d5c821110d3c85cae34661943b1533c0",
-      "size_bytes": 146134468
+      "name": "flutter-pos-odoo19-3.103.1-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.103.1/flutter-pos-odoo19-3.103.1-android.apk",
+      "sha256": "5ec6ec29de119d5d2334ac400fac14f8a21978c5a86f3ee9e610a283cc2850db",
+      "size_bytes": 147609576
     }
   }
 }
