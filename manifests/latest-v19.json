@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.106.1",
-  "build": 2247,
-  "tag": "v19-3.106.1",
+  "version": "3.106.3",
+  "build": 2249,
+  "tag": "v19-3.106.3",
   "source": {
-    "flutter_commit": "63ab74c4d28ddda709f77d86d389f51b1451d8f6",
+    "flutter_commit": "eb4ffa9654559a90d7ef5403f9aa203ed01c2a07",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "a363b2088a00c0a9c9de4294636dac6e4c32b3ca"
+    "backend_commit": "53aba0c63531675ac26928e99d0ff12605bb65b3"
   },
-  "published_at": "2026-11-05T15:02:38Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.106.1",
-  "body": "## [3.106.1] - 2026-11-05\n\n### Bug Fixes\n\n- restore legacy pricing and recover approved credit\n\n### Other Changes\n\n- align cash checkout expectations with legacy pricing\n- Guard original refund edits before publishing cart state",
+  "published_at": "2026-11-05T16:17:11Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.106.3",
+  "body": "## [3.106.3] - 2026-11-05\n\n### Bug Fixes\n\n- build Linux releases on a hosted Ubuntu runner",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.106.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.1/flutter-pos-odoo19-3.106.1-windows-x64.zip",
-      "sha256": "b24b6d1cf88693272ac27f5a33b44368199c67d1f4c5946296a45a37d2726b28",
-      "size_bytes": 35173424
+      "name": "flutter-pos-odoo19-3.106.3-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.3/flutter-pos-odoo19-3.106.3-windows-x64.zip",
+      "sha256": "c49b5c84a094af76af8c242c41a89a9b83da4aa29b084e191e41183726f3004a",
+      "size_bytes": 35173613
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.106.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.1/flutter-pos-odoo19-3.106.1-linux-x64.tar.gz",
-      "sha256": "ed315ef5a94a3eb73fe768e2032d93f4b515ca26fc8b22bebf3ac6ca2f74f70e",
-      "size_bytes": 40001777
+      "name": "flutter-pos-odoo19-3.106.3-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.3/flutter-pos-odoo19-3.106.3-linux-x64.tar.gz",
+      "sha256": "2523b8a625b7e7ff755254c9c7ddf8080abb9321c15c7096e8440784ecd6959e",
+      "size_bytes": 39997494
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.106.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.1/flutter-pos-odoo19-3.106.1-android.apk",
-      "sha256": "965089842e260e4526c72c74db0be1d058c1a2c590f2a1ffdce8b5181b346ebd",
-      "size_bytes": 148903172
+      "name": "flutter-pos-odoo19-3.106.3-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.3/flutter-pos-odoo19-3.106.3-android.apk",
+      "sha256": "bb146bf783b5b42f8262387f5a5f9afbfd4d37e77bb97382e4dceba6d2bdc694",
+      "size_bytes": 148903088
     }
   }
 }
