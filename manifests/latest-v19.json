@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.104.0",
-  "build": 2243,
-  "tag": "v19-3.104.0",
+  "version": "3.105.0",
+  "build": 2244,
+  "tag": "v19-3.105.0",
   "source": {
-    "flutter_commit": "6a841658f677c44cf93235707e33b08ed32b8db1",
+    "flutter_commit": "e1e12281030d9194707f63a0a454ebe930ffa1ce",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "daff6096e944ee60a1ce44c8f92011fc2407d6b4"
+    "backend_commit": "d8a3193d9cb73e11be48780d950ac67091328711"
   },
-  "published_at": "2026-11-04T07:57:37Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.104.0",
-  "body": "## [3.104.0] - 2026-11-04\n\n### Features\n\n- add catalogue search multi-select (AION-711)\n- implement detailed order loyalty receipt recovery and related logic\n- add loyalty_lines_json column to synced_orders table and update related logic\n\n### Bug Fixes\n\n- allow clearing unpaid orders after interrupted card payments\n- blend multi-select control into search background (AION-711)\n- count selected quantities and minimize dialog diff (AION-711)\n- align checkout overrides with loyalty receipt parameters\n- ensure customer loyalty state entries are reset on customer switch and handle errors during balance refresh\n- complete zero-total orders without payment selection\n\n### Other Changes\n\n- align transfer receipt flow with POS policy (AION-684)\n- place multi-select checkbox below catalogue search (AION-711)\n- Implemented in Settings → Devices → Cash On Cloud. - Checkbox defaults to unchecked, preserving the configured timeout. - Checked bypasses the payment deadline during PayTag kiosk cash-safe payments. - Cancellation and device-error handling remain active. - Setting persists across restarts; translations included.\n- - Screensaver / “Continue shopping?” timeout: the previous basket remains. Reopening shows the same order. - Idle session reset (if enabled): an unpaid basket is cleared. Reopening starts an empty order. - Order with payment evidence: clearing is blocked, so the previous order remains protected. Choosing “Back to welcome” also clears an unpaid basket with the change we ma\n- Fixed. PayTag now uses the regular POS loyalty calculation to print earned points, redeemed points, and balance. It also saves those details for reprints.\n- add recipt button\n- both sale and payment shortcut handlers now allow Regular POS (regular) and PayTag POS (paytag).\n- Implemented automatic return home for the XSOS confirmation screen. - Configurable under Settings → Kiosk Screensaver → Return home after purchase. - Options: 10 seconds (default), 30 seconds, or 1 minute. - Waits while exchange-ticket printing is active.\n- Fixed. The kiosk merge logic was adding a catalog item to a fuel line with the same product ID, increasing its total to 106.95.\n- Implemented the PayTag kiosk discount flow: - Manager cart mode with red frame, countdown, and blocked payment. - Item/cart discounts, partial-quantity splitting, editing, and removal. - Customer-visible discounted prices and totals. - Saved 1–3 minute auto-exit setting, defaulting to 2 minutes. Focused tests passed, including RFID preservation, timeout, persistence, and localized UI. Analysis found no compile errors; existing settings warnings remain.\n- Added the Named Tax Invoice / חשבונית מס שמית button beside “Your Basket.”",
+  "published_at": "2026-11-05T07:37:32Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.105.0",
+  "body": "## [3.105.0] - 2026-11-05\n\n### Features\n\n- add support for payment method names in loyalty program and related components\n- enhance loyalty program payment handling and add tests\n- add opt-in continuous branch QR flow\n\n### Bug Fixes\n\n- preserve configured modes and generate one replacement QR\n- stream full catalogs and isolate database diagnostics\n- treat empty payment selections as unrestricted\n- retain cached identifiers and pending QR confirmations\n\n### Other Changes\n\n- isolate product grid context from native storage\n- .\n- pin profile checks to the matching Visual Studio runner\n- automate release documentation jobs and isolated lab profiles\n- reduce payment-opening work and bound availability checks\n- refresh API mock for scoped QR polling",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.104.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.104.0/flutter-pos-odoo19-3.104.0-windows-x64.zip",
-      "sha256": "940461443bf990e40cdd0eed77a48d97abbd0465b25b43b0ac87c09ebacd773d",
-      "size_bytes": 35055838
+      "name": "flutter-pos-odoo19-3.105.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.105.0/flutter-pos-odoo19-3.105.0-windows-x64.zip",
+      "sha256": "55f946cf10ffb48122efd20658e16cbd0e4593308172295fe9ad0b724c697aa1",
+      "size_bytes": 35118636
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.104.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.104.0/flutter-pos-odoo19-3.104.0-linux-x64.tar.gz",
-      "sha256": "9187925302023416f2641221194ea96e68cdaa0c40c9f4cdf8d26cae900faa42",
-      "size_bytes": 39895026
+      "name": "flutter-pos-odoo19-3.105.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.105.0/flutter-pos-odoo19-3.105.0-linux-x64.tar.gz",
+      "sha256": "3b7f62cf90cd08bd2fc544839dc405ff7f318bf2f8f74bf62179bf86f5145317",
+      "size_bytes": 39951532
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.104.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.104.0/flutter-pos-odoo19-3.104.0-android.apk",
-      "sha256": "db991a2b049c1a83f4a4fc598a1870bc5c3405d68c0de6a9e9b740b4ffe40edf",
-      "size_bytes": 148117960
+      "name": "flutter-pos-odoo19-3.105.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.105.0/flutter-pos-odoo19-3.105.0-android.apk",
+      "sha256": "5c7bfe1bfc3f65341640d3480e6edb9f9a706121320cb7a7a2b0abf5b28a7405",
+      "size_bytes": 148444692
     }
   }
 }
