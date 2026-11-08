@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.106.5",
-  "build": 2251,
-  "tag": "v19-3.106.5",
+  "version": "3.107.0",
+  "build": 2252,
+  "tag": "v19-3.107.0",
   "source": {
-    "flutter_commit": "2d98562815ab7abb0c8d2878b11ffc2449f8f16e",
+    "flutter_commit": "1b7387ba099ee1a43e0fffbd091f07832724f9af",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "ea786226f0451144a6df9b641597d35199c18038"
+    "backend_commit": "312a51013165e1dd31199a0bd296e980eb154461"
   },
-  "published_at": "2026-11-06T17:15:47Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.106.5",
-  "body": "## [3.106.5] - 2026-11-06\n\n### Bug Fixes\n\n- isolate variant prices from template pricing",
+  "published_at": "2026-11-08T17:40:23Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.107.0",
+  "body": "## [3.107.0] - 2026-11-08\n\n### Features\n\n- add optional 70/30 payment action row (AION-730)\n\n### Bug Fixes\n\n- fall back to catalog prices after coverage recovery\n- recover missing pricing data silently\n- keep checkout pricing recovery silent\n- scope pricing recovery to the current cart and customer\n- preserve trace IDs in exported logs\n- recover from unavailable pricelist coverage\n- silently recover with verified draft prices\n- recover checkout from stalled repricing\n- preserve POS redemptions and correct discounted earnings (AION-741)\n- keep checkout ready on the same pricelist\n\n### Other Changes\n\n- override the popup search provider in widget fixtures\n- trace customer creation and follow-up refreshes\n- Implemented the customer popup search: - Searches the local database first. - If no match exists, searches Odoo. - Saves matching customers locally and displays them for selection.\n- batch checkout diagnostics outside SQLite\n- trace checkout readiness and refresh timing\n- AION-750: Auto-close PayTag dialog after successful neutralization\n- Made the Z-table text bold, keeping the same font size.\n- in z report the name of session shoulb be present in one line , not complete name in next line\n- Updated both consolidated printing and on-screen preview: - Header omits the Z number. - Business period uses the selected date range. - Table lists every Z: number, opened, closed, amount. - Department and payment totals remain consolidated. - GT counters, average sale, and transaction counts are omitted.\n- mplemented the consolidated Z report option. - Added “Show consolidated report” / “הצג דוח מרוכז”, unchecked by default. - Consolidated mode shows one row with the first opening, last closing, and summed amount, without a Z number. - Preview and printing use the existing POS printer flow.",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.106.5-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.5/flutter-pos-odoo19-3.106.5-windows-x64.zip",
-      "sha256": "52d0f9f2bfdf44d680113f201d3831d75f649e217633dc19f4fd84fb15ed7f97",
-      "size_bytes": 35161651
+      "name": "flutter-pos-odoo19-3.107.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.107.0/flutter-pos-odoo19-3.107.0-windows-x64.zip",
+      "sha256": "0c7d0eb8dc4303ea0482263980adafce8033827e229df604209e50bf819e5ad9",
+      "size_bytes": 35212089
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.106.5-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.5/flutter-pos-odoo19-3.106.5-linux-x64.tar.gz",
-      "sha256": "4c72c07202232b05280a705a159c7c5497e1eb7d71b50fdca1f6790b164de9f3",
-      "size_bytes": 39989241
+      "name": "flutter-pos-odoo19-3.107.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.107.0/flutter-pos-odoo19-3.107.0-linux-x64.tar.gz",
+      "sha256": "2b8d968b87aab7bfc50431df93c06a6678d8f32e0c117207e6504b9cfdd60338",
+      "size_bytes": 40042486
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.106.5-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.106.5/flutter-pos-odoo19-3.106.5-android.apk",
-      "sha256": "7b75ae557cb5910f517c842ef2cb876591aae561eac1c193bf2edbcedcf0c41e",
-      "size_bytes": 148804780
+      "name": "flutter-pos-odoo19-3.107.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.107.0/flutter-pos-odoo19-3.107.0-android.apk",
+      "sha256": "ee4d53a771d4ce892587c6d63b0fbe543b0b30228488647c82f5db986ec4aa1c",
+      "size_bytes": 149215256
     }
   }
 }
