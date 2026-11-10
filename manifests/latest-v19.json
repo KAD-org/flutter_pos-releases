@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.108.0",
-  "build": 2253,
-  "tag": "v19-3.108.0",
+  "version": "3.108.1",
+  "build": 2254,
+  "tag": "v19-3.108.1",
   "source": {
-    "flutter_commit": "c0fc201870c6a41cddb4607b4d5b6b75b59b5b47",
+    "flutter_commit": "820b54006b2e144e017e78fa6040af2cae80fc9f",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "cf5314d6f61b0a443c84de2efb0734ca50d74c35"
+    "backend_commit": "8960b6ead0af9096509aa72c5544ef685809cb85"
   },
-  "published_at": "2026-11-09T14:43:22Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.108.0",
-  "body": "## [3.108.0] - 2026-11-09\n\n### Features\n\n- show promotion opportunity nudges (AION-748)\n- support weight-based rewards (AION-718)\n- support PinPad gift card payments (AION-745)\n\n### Bug Fixes\n\n- remove unrelated scan timing from weight rewards\n\n### Other Changes\n\n- run Odoo 19 development PR validation on ubuntu-24.04\n- retrial development validation on isolated VPS-CI runner\n- own recovery fixture socket writer completion",
+  "published_at": "2026-11-10T11:27:30Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.108.1",
+  "body": "## [3.108.1] - 2026-11-10\n\n### Bug Fixes\n\n- restore release 90 retry behavior\n\n### Other Changes\n\n- Updated Clear Order: card errors and timeouts saved as unknown no longer prevent clearing an unpaid order.\n- Updated PayTag self-order cancellation to clear matching pending-payment state, record terminal reversals, and save the updated order before cancellation.\n- give payment methods more space (NEXO-730)\n- Nayax cancellation: self PayTag discarded the terminal IP and port when rebuilding the payment method, so cancellation had no valid pin pad address. Fixed it to load the original configured method. Lines appearing in regular POS: both modes share the active cart and order ID. Regular POS restores payments belonging to that same order. This behavior remains unchanged so confirmed payments aren’t lost. Updated the credit terms screen to display the exact amount sent to Nayax for that card transaction, including partial payments, instead of the full order total.\n- Implemented: if request-status reaches its 2-minute response timeout, the POS sends escape-payment with the payment index before reporting the error. and time out request-status 2 min\n- Revert \"Check payment status every 30 seconds.\"\n- Check payment status every 30 seconds. Continue waiting beyond 2 minutes, without automatic cancellation. Keep manual cancellation available.\n- Updated PayTag’s cart and customer view to match regular POS: - Line discounts appear directly below the relevant item or discounted split line. - Promotions appear below their target items. - Multiple discounts stay together beneath the item. - Cart discounts appear after all items.",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.108.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.0/flutter-pos-odoo19-3.108.0-windows-x64.zip",
-      "sha256": "48be8c4448928e3dd8c7430b832ab1e279041d64132801b8ede1d7c59646f2fe",
-      "size_bytes": 35260261
+      "name": "flutter-pos-odoo19-3.108.1-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.1/flutter-pos-odoo19-3.108.1-windows-x64.zip",
+      "sha256": "b9d7daac8209eabc6957deb9ed3b103a22999ecd82e11b9972eabce8ac026b80",
+      "size_bytes": 35265117
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.108.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.0/flutter-pos-odoo19-3.108.0-linux-x64.tar.gz",
-      "sha256": "20b050b0eaf4ef601d8fae25f2625b08fe1f2d9672212e6291f85a9e54134657",
-      "size_bytes": 40076199
+      "name": "flutter-pos-odoo19-3.108.1-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.1/flutter-pos-odoo19-3.108.1-linux-x64.tar.gz",
+      "sha256": "955f010112f026e2dde66ccf359ef971df5cd1271a83533df8ef5f46ff00b5dd",
+      "size_bytes": 40083002
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.108.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.0/flutter-pos-odoo19-3.108.0-android.apk",
-      "sha256": "0e1cc0bda40bfd8a5ca7445aecd427c753aadc1c75eaf2e3cc6948100f4ae20f",
-      "size_bytes": 149493100
+      "name": "flutter-pos-odoo19-3.108.1-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.1/flutter-pos-odoo19-3.108.1-android.apk",
+      "sha256": "178d8b024d7c7efb72616c9c2f0c42186d91cf9df3f7e8fd73770af34cd3fa56",
+      "size_bytes": 149493656
     }
   }
 }
