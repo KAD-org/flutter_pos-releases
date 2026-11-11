@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.108.1",
-  "build": 2254,
-  "tag": "v19-3.108.1",
+  "version": "3.109.0",
+  "build": 2255,
+  "tag": "v19-3.109.0",
   "source": {
-    "flutter_commit": "820b54006b2e144e017e78fa6040af2cae80fc9f",
+    "flutter_commit": "3f8e3a0984c6652f03c9468eb3a9ed594b7ddb26",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "8960b6ead0af9096509aa72c5544ef685809cb85"
+    "backend_commit": "7de0c50e295d3d0f0fbf5276bc82085230cd06a8"
   },
-  "published_at": "2026-11-10T11:27:30Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.108.1",
-  "body": "## [3.108.1] - 2026-11-10\n\n### Bug Fixes\n\n- restore release 90 retry behavior\n\n### Other Changes\n\n- Updated Clear Order: card errors and timeouts saved as unknown no longer prevent clearing an unpaid order.\n- Updated PayTag self-order cancellation to clear matching pending-payment state, record terminal reversals, and save the updated order before cancellation.\n- give payment methods more space (NEXO-730)\n- Nayax cancellation: self PayTag discarded the terminal IP and port when rebuilding the payment method, so cancellation had no valid pin pad address. Fixed it to load the original configured method. Lines appearing in regular POS: both modes share the active cart and order ID. Regular POS restores payments belonging to that same order. This behavior remains unchanged so confirmed payments aren’t lost. Updated the credit terms screen to display the exact amount sent to Nayax for that card transaction, including partial payments, instead of the full order total.\n- Implemented: if request-status reaches its 2-minute response timeout, the POS sends escape-payment with the payment index before reporting the error. and time out request-status 2 min\n- Revert \"Check payment status every 30 seconds.\"\n- Check payment status every 30 seconds. Continue waiting beyond 2 minutes, without automatic cancellation. Keep manual cancellation available.\n- Updated PayTag’s cart and customer view to match regular POS: - Line discounts appear directly below the relevant item or discounted split line. - Promotions appear below their target items. - Multiple discounts stay together beneath the item. - Cart discounts appear after all items.",
+  "published_at": "2026-11-11T07:46:51Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.109.0",
+  "body": "## [3.109.0] - 2026-11-11\n\n### Features\n\n- fit resized fields and delete saved templates\n- add vertical gap for continuous feed\n- add template field toolbox and undoable clearing\n- create templates from default and edit sizes in millimetres\n- refresh printing data and preserve in-progress edits\n\n### Bug Fixes\n\n- synchronize retained purchase quantities after refresh\n- preserve reviewed work across refresh and rounding\n- defer root lifecycle effects during account changes\n- defer router refresh until provider updates settle\n- return to account login after printing logout\n\n### Other Changes\n\n- Updated partial results: Retry is now the large primary button; Done is the smaller outlined button.\n- restore the VPS runner for development PRs\n- The exchange flow now: 1. Sends return_items and requires success. 2. Asks the cashier to remove returned items from the RFID box, leaving purchases inside. 3. Waits 4 seconds after confirmation. 4. Sends neutralize for purchased items only.\n- enclose print guard in a block",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.108.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.1/flutter-pos-odoo19-3.108.1-windows-x64.zip",
-      "sha256": "b9d7daac8209eabc6957deb9ed3b103a22999ecd82e11b9972eabce8ac026b80",
-      "size_bytes": 35265117
+      "name": "flutter-pos-odoo19-3.109.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.0/flutter-pos-odoo19-3.109.0-windows-x64.zip",
+      "sha256": "30e5cf06a72fdba8139ef01655a5ce08eda9473a910370dabd67feff46e9e81c",
+      "size_bytes": 35288585
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.108.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.1/flutter-pos-odoo19-3.108.1-linux-x64.tar.gz",
-      "sha256": "955f010112f026e2dde66ccf359ef971df5cd1271a83533df8ef5f46ff00b5dd",
-      "size_bytes": 40083002
+      "name": "flutter-pos-odoo19-3.109.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.0/flutter-pos-odoo19-3.109.0-linux-x64.tar.gz",
+      "sha256": "09c791efbac0da5d2c414f3595b4955d6478f41acf807de9734d25d7b5fe05ef",
+      "size_bytes": 40113692
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.108.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.108.1/flutter-pos-odoo19-3.108.1-android.apk",
-      "sha256": "178d8b024d7c7efb72616c9c2f0c42186d91cf9df3f7e8fd73770af34cd3fa56",
-      "size_bytes": 149493656
+      "name": "flutter-pos-odoo19-3.109.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.0/flutter-pos-odoo19-3.109.0-android.apk",
+      "sha256": "9791be2cbc53eb89c8f5ad26c93e7d09a2fb86fd47fe7de32b507f454a708306",
+      "size_bytes": 149640860
     }
   }
 }
