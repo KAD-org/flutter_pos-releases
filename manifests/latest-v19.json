@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.109.0",
-  "build": 2255,
-  "tag": "v19-3.109.0",
+  "version": "3.109.1",
+  "build": 2256,
+  "tag": "v19-3.109.1",
   "source": {
-    "flutter_commit": "3f8e3a0984c6652f03c9468eb3a9ed594b7ddb26",
+    "flutter_commit": "2924a39c7629eeab00915e0896890eca3badcb39",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "7de0c50e295d3d0f0fbf5276bc82085230cd06a8"
+    "backend_commit": "32195a0c5b36a5e12f8dfecdca5f3d0ac9488d4d"
   },
-  "published_at": "2026-11-11T07:46:51Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.109.0",
-  "body": "## [3.109.0] - 2026-11-11\n\n### Features\n\n- fit resized fields and delete saved templates\n- add vertical gap for continuous feed\n- add template field toolbox and undoable clearing\n- create templates from default and edit sizes in millimetres\n- refresh printing data and preserve in-progress edits\n\n### Bug Fixes\n\n- synchronize retained purchase quantities after refresh\n- preserve reviewed work across refresh and rounding\n- defer root lifecycle effects during account changes\n- defer router refresh until provider updates settle\n- return to account login after printing logout\n\n### Other Changes\n\n- Updated partial results: Retry is now the large primary button; Done is the smaller outlined button.\n- restore the VPS runner for development PRs\n- The exchange flow now: 1. Sends return_items and requires success. 2. Asks the cashier to remove returned items from the RFID box, leaving purchases inside. 3. Waits 4 seconds after confirmation. 4. Sends neutralize for purchased items only.\n- enclose print guard in a block",
+  "published_at": "2026-11-12T07:37:51Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.109.1",
+  "body": "## [3.109.1] - 2026-11-11\n\n### Bug Fixes\n\n- recognize v5 customer scope and refresh the cache\n- show selected state on grouped template rows (AION-711)\n- preserve multi-select variants and respect grouping (AION-711)\n- refresh localized promotion names (AION-761)\n- keep customer display open across POS navigation\n\n### Other Changes\n\n- run full development PR validation on the VPS pool\n- wait for the FCC resume acknowledgment before retrying\n- unblock development validation with hosted Ubuntu runner\n- split development checks across VPS and GitHub runners\n- Implemented: “Authorized Credit Customer” is hidden in Self Order’s named tax invoice → Add customer dialog. Regular POS behavior is unchanged.\n- verify locale-specific promotion names (AION-761)\n- keep source-backed module destinations\n- scaffold incremental module structure",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.109.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.0/flutter-pos-odoo19-3.109.0-windows-x64.zip",
-      "sha256": "30e5cf06a72fdba8139ef01655a5ce08eda9473a910370dabd67feff46e9e81c",
-      "size_bytes": 35288585
+      "name": "flutter-pos-odoo19-3.109.1-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.1/flutter-pos-odoo19-3.109.1-windows-x64.zip",
+      "sha256": "9d41273349ac498f779650be7f9a6b83df16ea9f0a69c3a5d4a0e206f3111976",
+      "size_bytes": 35294659
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.109.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.0/flutter-pos-odoo19-3.109.0-linux-x64.tar.gz",
-      "sha256": "09c791efbac0da5d2c414f3595b4955d6478f41acf807de9734d25d7b5fe05ef",
-      "size_bytes": 40113692
+      "name": "flutter-pos-odoo19-3.109.1-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.1/flutter-pos-odoo19-3.109.1-linux-x64.tar.gz",
+      "sha256": "a048b649152671937d11930357713188582d20cba839c1e0aff8f77784b7c548",
+      "size_bytes": 40117890
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.109.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.0/flutter-pos-odoo19-3.109.0-android.apk",
-      "sha256": "9791be2cbc53eb89c8f5ad26c93e7d09a2fb86fd47fe7de32b507f454a708306",
-      "size_bytes": 149640860
+      "name": "flutter-pos-odoo19-3.109.1-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.1/flutter-pos-odoo19-3.109.1-android.apk",
+      "sha256": "59d61412d9e1eca05b372fdbfbc4cf5b634d143842fd61bd6f3302adf1ca4967",
+      "size_bytes": 149706320
     }
   }
 }
