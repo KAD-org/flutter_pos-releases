@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.109.1",
-  "build": 2256,
-  "tag": "v19-3.109.1",
+  "version": "3.110.0",
+  "build": 2257,
+  "tag": "v19-3.110.0",
   "source": {
-    "flutter_commit": "2924a39c7629eeab00915e0896890eca3badcb39",
+    "flutter_commit": "b94e5a386c7f9f995d30115382b9556e7a6518ea",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "32195a0c5b36a5e12f8dfecdca5f3d0ac9488d4d"
+    "backend_commit": "d0dff5c65daf3d4dcef2380e2acff04f42107746"
   },
-  "published_at": "2026-11-12T07:37:51Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.109.1",
-  "body": "## [3.109.1] - 2026-11-11\n\n### Bug Fixes\n\n- recognize v5 customer scope and refresh the cache\n- show selected state on grouped template rows (AION-711)\n- preserve multi-select variants and respect grouping (AION-711)\n- refresh localized promotion names (AION-761)\n- keep customer display open across POS navigation\n\n### Other Changes\n\n- run full development PR validation on the VPS pool\n- wait for the FCC resume acknowledgment before retrying\n- unblock development validation with hosted Ubuntu runner\n- split development checks across VPS and GitHub runners\n- Implemented: “Authorized Credit Customer” is hidden in Self Order’s named tax invoice → Add customer dialog. Regular POS behavior is unchanged.\n- verify locale-specific promotion names (AION-761)\n- keep source-backed module destinations\n- scaffold incremental module structure",
+  "published_at": "2026-11-12T14:46:33Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.110.0",
+  "body": "## [3.110.0] - 2026-11-12\n\n### Features\n\n- support ZKTeco ZK4500 on Odoo Windows\n\n### Bug Fixes\n\n- preserve TCP response correlation on invalid frames\n- recover external TCP controller responses\n\n### Other Changes\n\n- Moved “Named Tax Invoice” from the PayTag cart to the first action in Manager Mode. It opens the existing customer dialog, with the credit authorization option still hidden.\n- clarify recovery of the published release queue job\n- scope release documentation reads to the correct GitHub tokens",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.109.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.1/flutter-pos-odoo19-3.109.1-windows-x64.zip",
-      "sha256": "9d41273349ac498f779650be7f9a6b83df16ea9f0a69c3a5d4a0e206f3111976",
-      "size_bytes": 35294659
+      "name": "flutter-pos-odoo19-3.110.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.110.0/flutter-pos-odoo19-3.110.0-windows-x64.zip",
+      "sha256": "b263a79e4b53587e7f9de884b36b8adb6ecc01d7855a8331bf7ee12ced8b047a",
+      "size_bytes": 35308776
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.109.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.1/flutter-pos-odoo19-3.109.1-linux-x64.tar.gz",
-      "sha256": "a048b649152671937d11930357713188582d20cba839c1e0aff8f77784b7c548",
-      "size_bytes": 40117890
+      "name": "flutter-pos-odoo19-3.110.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.110.0/flutter-pos-odoo19-3.110.0-linux-x64.tar.gz",
+      "sha256": "373f954e924002fbcefefe00d386015170b80db71c3272aab0c06b26f6e1e22b",
+      "size_bytes": 40120099
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.109.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.109.1/flutter-pos-odoo19-3.109.1-android.apk",
-      "sha256": "59d61412d9e1eca05b372fdbfbc4cf5b634d143842fd61bd6f3302adf1ca4967",
-      "size_bytes": 149706320
+      "name": "flutter-pos-odoo19-3.110.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.110.0/flutter-pos-odoo19-3.110.0-android.apk",
+      "sha256": "6065e2dd567504c23b345820f8db8a18ca755b41bf40bd726831a6a31be67208",
+      "size_bytes": 149722544
     }
   }
 }
