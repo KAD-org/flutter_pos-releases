@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.110.0",
-  "build": 2257,
-  "tag": "v19-3.110.0",
+  "version": "3.111.0",
+  "build": 2258,
+  "tag": "v19-3.111.0",
   "source": {
-    "flutter_commit": "b94e5a386c7f9f995d30115382b9556e7a6518ea",
+    "flutter_commit": "d06aa21343d5ebafa99eb61ab57c9257df8a94d9",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "d0dff5c65daf3d4dcef2380e2acff04f42107746"
+    "backend_commit": "024c4c61e96fe526c8225791c49e549a184a6fc1"
   },
-  "published_at": "2026-11-12T14:46:33Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.110.0",
-  "body": "## [3.110.0] - 2026-11-12\n\n### Features\n\n- support ZKTeco ZK4500 on Odoo Windows\n\n### Bug Fixes\n\n- preserve TCP response correlation on invalid frames\n- recover external TCP controller responses\n\n### Other Changes\n\n- Moved “Named Tax Invoice” from the PayTag cart to the first action in Manager Mode. It opens the existing customer dialog, with the credit authorization option still hidden.\n- clarify recovery of the published release queue job\n- scope release documentation reads to the correct GitHub tokens",
+  "published_at": "2026-11-15T17:18:10Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.111.0",
+  "body": "## [3.111.0] - 2026-11-15\n\n### Features\n\n- expand function groups and color each action\n- add device and company fuel switches\n- add shared header function groups\n- bundle DigitalPersona fingerprint support in NEXO releases\n\n### Bug Fixes\n\n- cancel storage timers on controller disposal\n- harden Windows credential storage and recovery diagnostics\n- verify admin access before refreshing offline policy\n- preserve nullable cookie guards in logo requests\n- rotate cookies only on requests that can adopt them\n- preserve POS setup and accept Odoo cookie rotation\n- improve pagination and selection handling in purchase recommendations\n- keep the device switch in Fuel and cancel pending dials\n- reuse access authorization and localize function names\n- guard fuel transport across POS selection\n\n### Other Changes\n\n- isolate variant fixtures from native auth storage\n- dispose provider scopes during widget teardown\n- isolate receipt and transfer fixtures from auth storage\n- Improve Odoo operations toolbar layout for better responsiveness and clarity\n- Active sale: returning from Settings or another entry path opens the basket directly. No active sale: opens Start Shopping.\n- Payment lines exist: stay on payment screen; no timeout or “Continue shopping?” popup. No payment lines: normal inactivity popup and timeout apply. Removing the last payment line restarts the timeout.\n- brace stale cookie recovery guard\n- initialize fuel transport fixtures explicitly",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.110.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.110.0/flutter-pos-odoo19-3.110.0-windows-x64.zip",
-      "sha256": "b263a79e4b53587e7f9de884b36b8adb6ecc01d7855a8331bf7ee12ced8b047a",
-      "size_bytes": 35308776
+      "name": "flutter-pos-odoo19-3.111.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.111.0/flutter-pos-odoo19-3.111.0-windows-x64.zip",
+      "sha256": "04602e00b84a28d2114d3532da9eaafd2635495a1cde4ce9c2ce4ca2c110f876",
+      "size_bytes": 35420113
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.110.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.110.0/flutter-pos-odoo19-3.110.0-linux-x64.tar.gz",
-      "sha256": "373f954e924002fbcefefe00d386015170b80db71c3272aab0c06b26f6e1e22b",
-      "size_bytes": 40120099
+      "name": "flutter-pos-odoo19-3.111.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.111.0/flutter-pos-odoo19-3.111.0-linux-x64.tar.gz",
+      "sha256": "b29b70d2d672ee8ee3fa61a0a9894f5e0d12b5ecb1a703962cadaeda9816acc8",
+      "size_bytes": 40205679
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.110.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.110.0/flutter-pos-odoo19-3.110.0-android.apk",
-      "sha256": "6065e2dd567504c23b345820f8db8a18ca755b41bf40bd726831a6a31be67208",
-      "size_bytes": 149722544
+      "name": "flutter-pos-odoo19-3.111.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.111.0/flutter-pos-odoo19-3.111.0-android.apk",
+      "sha256": "ecedd9db327174d80f4997d1bbaf64fd68ee08d7f0d72c0ccbca1f6293a42ce6",
+      "size_bytes": 154210191
     }
   }
 }
