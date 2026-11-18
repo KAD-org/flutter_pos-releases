@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.111.1",
-  "build": 2259,
-  "tag": "v19-3.111.1",
+  "version": "3.112.0",
+  "build": 2260,
+  "tag": "v19-3.112.0",
   "source": {
-    "flutter_commit": "c7025b0827caeb33aeb4ce23bebb36decfb27e68",
+    "flutter_commit": "01cb580fd798345c07802ac466cc0fb67f9246b5",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "da445625bd86d62a18e0cc318c5259e4b21fa4d4"
+    "backend_commit": "9c056aa002032f8498597b05a3a978b61deea061"
   },
-  "published_at": "2026-11-16T15:07:07Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.111.1",
-  "body": "## [3.111.1] - 2026-11-16\n\n### Bug Fixes\n\n- preserve cached installment limits on Odoo errors\n\n### Other Changes\n\n- Uses the transaction’s configured amount range. Defaults to 36 when settings are missing or unavailable. Your example allows 4 payments for amounts 0–200.",
+  "published_at": "2026-11-18T12:01:21Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.112.0",
+  "body": "## [3.112.0] - 2026-11-18\n\n### Features\n\n- add batch printing and employee attendance tools\n- refresh dated prices and apply cached quantity tiers\n- add explicit pricelist ID handling in customer DTO and related services\n- size location numbers independently of barcodes\n- print warehouse location barcodes\n\n### Bug Fixes\n\n- retain explicit customer prices during full sync\n- normalize option charges in verified draft prices\n- recover legacy option charges and verify fallback totals\n- preserve quantity tiers in catalog snapshot staging\n- recover customer assignments and preserve scoped prices\n- align Z report trading-day table (AIONE-596)\n- display active branch prices across POS catalogs and search\n- retain explicit pricelist in legacy cart decoding\n- wait for branch policy before customer fallback\n- preserve explicit customer pricelist after editing\n- reserve more height for location barcode bars\n- print the location number above the barcode\n\n### Other Changes\n\n- isolate widget fixtures and update catalog query assertion\n- Table data is now bold again. Headers remain bold, and the column layout stays the same.\n- Updated the Z-number header and values to align at the column’s start: left in English, right in Hebrew.\n- restore test release documentation replay\n- exclude scratch artifacts and unrelated dependency changes from AION-854\n- Implement branch pricing feature and related tests\n- skip automatic refresh while report is loading",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.111.1-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.111.1/flutter-pos-odoo19-3.111.1-windows-x64.zip",
-      "sha256": "b0b7ecfb479871b3ef369fbc35435babd6da5f22ef9b8c1cfa163447d7800d7d",
-      "size_bytes": 35417603
+      "name": "flutter-pos-odoo19-3.112.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.112.0/flutter-pos-odoo19-3.112.0-windows-x64.zip",
+      "sha256": "fa6a6789fb0d449743d7ddbc291dd779a90cb32105aa34c5761abbd1db3fa552",
+      "size_bytes": 35468488
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.111.1-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.111.1/flutter-pos-odoo19-3.111.1-linux-x64.tar.gz",
-      "sha256": "03bd46ddedda541b9ca4b71b405cbf408b3ab421e16e7f8e3842b7407df18d00",
-      "size_bytes": 40204559
+      "name": "flutter-pos-odoo19-3.112.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.112.0/flutter-pos-odoo19-3.112.0-linux-x64.tar.gz",
+      "sha256": "ca25aff7b7bb05bf9dd0e39aab631e3bfa3221f6ffa20d56cfabdb695de6e67b",
+      "size_bytes": 40290925
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.111.1-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.111.1/flutter-pos-odoo19-3.111.1-android.apk",
-      "sha256": "8d4e258c9418da1741211472fc018132ca2c2a40f95c2ba6884671026af39d17",
-      "size_bytes": 154209619
+      "name": "flutter-pos-odoo19-3.112.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.112.0/flutter-pos-odoo19-3.112.0-android.apk",
+      "sha256": "7f57afd5df9a15a77f91197f7ab59d406a1ca60f4f1fda996ba1e035233262ac",
+      "size_bytes": 154586979
     }
   }
 }
