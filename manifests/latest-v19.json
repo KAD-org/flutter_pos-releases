@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.114.0",
-  "build": 2262,
-  "tag": "v19-3.114.0",
+  "version": "3.115.0",
+  "build": 2263,
+  "tag": "v19-3.115.0",
   "source": {
-    "flutter_commit": "f81bc8ecc25370106d10952644cddcef50aed64d",
+    "flutter_commit": "aad36472a35c65fcbcd4dcd12e6c8b237dcbd6fb",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "02096d5f790eddcc9db3c0d1c3c0dbf0db3527f9"
+    "backend_commit": "354d092abfb1d21008c1134dff0ac74267c6df83"
   },
-  "published_at": "2026-11-24T15:38:52Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.114.0",
-  "body": "## [3.114.0] - 2026-11-24\n\n### Features\n\n- add guarded joining checkout recovery actions\n- automatically apply single-use first-purchase benefits\n\n### Bug Fixes\n\n- recover from rejected gift card draft saves\n- guard standalone gift card checkout\n- share pre-joining manual redemption admission\n- skip joining rewards without realized savings\n- separate joining monetary targets from bundle claims\n- keep recovery dismissal bound to its Multipass route\n- guard recovered tenders and reconcile gift points stacking\n- keep recovery scheduling out of ordinary balance refreshes\n- recheck recovery ownership after asynchronous ledger reads\n- retain changed-basket confirmation and captured evidence guards\n- use realized prior promotion savings for joining benefits\n- price joining benefits after selected gifts and rounded line bases\n- reconcile uncapped joining allocations with aggregate ceiling\n- include manual points and global discount allocation\n- enforce benefit caps on checkout-rounded inputs\n- scope and revalidate joining benefits before tender\n- retain benefit rollbacks and persist fresh checkout drafts\n- preserve renamed Windows launchers\n- revalidate free benefits with loaded facts and recover wallet retries\n- verify free benefits at deferred wallet capture boundaries\n- wait for initial free benefit loading before checkout\n- serialize and revalidate free club benefit checkout\n\n### Other Changes\n\n- run pinned legacy bootstrap cases in CI\n- run bounded checkout recovery regressions before full suites\n- drive widget and persistence clocks during recovery\n- cover recovery reasons and durable order parking\n- record joining-benefit review validation and Windows checkout\n- record Windows rounding and quota acceptance checks\n- add follow-up Windows acceptance evidence\n- record Rami review Windows acceptance evidence\n- preserve PDF guide bytes across platforms",
+  "published_at": "2026-11-24T17:25:28Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.115.0",
+  "body": "## [3.115.0] - 2026-11-24\n\n### Features\n\n- harden remote diagnostic recovery\n- interrupt active log recovery scans\n\n### Bug Fixes\n\n- honor recent log retry deadlines\n- retain named invoice recipient on MQTT refresh (AION-952)\n- deduplicate active command delivery\n- preserve recovery interrupt priority\n- close diagnostic recovery gaps\n- preserve diagnostic queue priorities\n- preserve diagnostic consistency and retries\n- show named invoice recipient in customer section\n- recover HTTPS cancellations during local replay\n- preserve legacy phone split payment fingerprints\n- preserve named invoice mode on customer changes\n- avoid creating named invoice recipient partners\n- require review for legacy order recovery\n- address named invoice recovery and refund review (AION-952)\n- retain loyalty member for named invoice refunds (AION-952)\n- persist log scan cancellations\n- make recovery cancellation durable\n- bound historical log archive scans\n\n### Other Changes\n\n- Enhance invoice handling for customers by adding support for invoice recipients in cart and checkout processes",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.114.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.114.0/flutter-pos-odoo19-3.114.0-windows-x64.zip",
-      "sha256": "34e59541a7d38ce21728974de4a5459f78468a3b5e7c32246becb947397f8fdd",
-      "size_bytes": 35421407
+      "name": "flutter-pos-odoo19-3.115.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.115.0/flutter-pos-odoo19-3.115.0-windows-x64.zip",
+      "sha256": "650099b264a0560e8a3121bc1a07ea5835a288cf696def5c889af9b44a371a93",
+      "size_bytes": 35466195
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.114.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.114.0/flutter-pos-odoo19-3.114.0-linux-x64.tar.gz",
-      "sha256": "947877df9d063e4d94a01df23b60fd81cb69d15a4634b1e1a6cf270d2e930145",
-      "size_bytes": 31428017
+      "name": "flutter-pos-odoo19-3.115.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.115.0/flutter-pos-odoo19-3.115.0-linux-x64.tar.gz",
+      "sha256": "df011dd0d31c05b161d4123d287da0506e02be3866b1edf24fe50c612421d20f",
+      "size_bytes": 31478319
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.114.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.114.0/flutter-pos-odoo19-3.114.0-android.apk",
-      "sha256": "1b227dd4d4a5b2a07aee065152a0192ae5b8b09b2edb63b3a0242d188bf143e2",
-      "size_bytes": 158207070
+      "name": "flutter-pos-odoo19-3.115.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.115.0/flutter-pos-odoo19-3.115.0-android.apk",
+      "sha256": "094d29c9868770505c89831af74630db854ad6a7d5bf7b88c89702c4f4983b77",
+      "size_bytes": 158534394
     }
   }
 }
