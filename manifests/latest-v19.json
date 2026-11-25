@@ -3,36 +3,36 @@
   "stream": "v19",
   "channel": "stable",
   "odoo_major": 19,
-  "version": "3.115.0",
-  "build": 2263,
-  "tag": "v19-3.115.0",
+  "version": "3.116.0",
+  "build": 2264,
+  "tag": "v19-3.116.0",
   "source": {
-    "flutter_commit": "aad36472a35c65fcbcd4dcd12e6c8b237dcbd6fb",
+    "flutter_commit": "4397575360588b2aa38cfad40174a186b83fb319",
     "backend_addon": "flutter_pos_api",
     "backend_branch": "odoo19/main",
-    "backend_commit": "354d092abfb1d21008c1134dff0ac74267c6df83"
+    "backend_commit": "3e7d8954528926b69820169fb90c8bc72ed96d39"
   },
-  "published_at": "2026-11-24T17:25:28Z",
-  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.115.0",
-  "body": "## [3.115.0] - 2026-11-24\n\n### Features\n\n- harden remote diagnostic recovery\n- interrupt active log recovery scans\n\n### Bug Fixes\n\n- honor recent log retry deadlines\n- retain named invoice recipient on MQTT refresh (AION-952)\n- deduplicate active command delivery\n- preserve recovery interrupt priority\n- close diagnostic recovery gaps\n- preserve diagnostic queue priorities\n- preserve diagnostic consistency and retries\n- show named invoice recipient in customer section\n- recover HTTPS cancellations during local replay\n- preserve legacy phone split payment fingerprints\n- preserve named invoice mode on customer changes\n- avoid creating named invoice recipient partners\n- require review for legacy order recovery\n- address named invoice recovery and refund review (AION-952)\n- retain loyalty member for named invoice refunds (AION-952)\n- persist log scan cancellations\n- make recovery cancellation durable\n- bound historical log archive scans\n\n### Other Changes\n\n- Enhance invoice handling for customers by adding support for invoice recipients in cart and checkout processes",
+  "published_at": "2026-11-25T17:23:21Z",
+  "release_url": "https://github.com/KAD-org/flutter_pos-releases/releases/tag/v19-3.116.0",
+  "body": "## [3.116.0] - 2026-11-25\n\n### Features\n\n- add vendor return warehouse configuration and search dialog\n\n### Bug Fixes\n\n- guard deferred ownership and clear-order recovery\n- reconcile displayed refund VAT at currency precision\n- limit recovery owner writes to voucher flows\n- freeze recovery account before confirmation wait\n- expose recovered vouchers and preserve original RFID evidence\n- deliver confirmed credit while posting remains in review\n- release saved orders before ancillary preparation\n- share silent saved-order handoff and retain unfinished work\n- release confirmed orders and verify recovered credit\n- preserve mixed tenders and reserve recovery scans\n- keep focus on scanner input to prevent cancellation during barcode lookup\n- persist support evidence before parking checkout\n- search company-compatible vendors\n- keep deferred effects fair and validate exchange tags\n- verify saved voucher partner when lookup is incomplete\n- require online confirmation for restored payment intents\n- hand desktop failures to support and preserve deferred work\n- verify customer before issuing recovered credit\n- retain historical confirmed credit compatibility\n- publish phone credit only after sync confirmation\n- release saved refunds pending review\n- clear search errors after retry\n- label unset return warehouse\n- restore automatic return warehouse\n- remove extra localization arguments\n- include return warehouse in search\n- lock source customer and verify currency amounts\n- localize return destination settings\n- refresh destination and product search\n- include free loyalty products in receipt savings (AIONE-899)\n\n### Other Changes\n\n- declare raw-tag fixture after its helper\n- cover retained activation repair and fuel handoff\n- preserve localization formatting after dependency merge\n- isolate quick customer tag widget fixture\n- Keep receipt customer recovery desktop-only\n- Before: Always rounded savings to 2 decimal places. Now: Uses the same precision as checkout—for example, 0 decimals for JPY, 3 for KWD, and 2 for ILS. Applies that precision to both tax calculations and the final savings amount.\n- Fill missing refund customer from the original Odoo receipt\n- Complete refund vouchers before acknowledging recovered orders\n- Updated the savings block to match the example’s layout: - Centered label and amount on separate lines. - Larger, medium-weight font. - Extra spacing below the product count.Reverted the phone-printer savings changes and related tests. The shared calculation, setting, and standard receipt changes remain.\n- Implemented Print Savings on Purchase, default disabled.",
   "assets": {
     "windows": {
-      "name": "flutter-pos-odoo19-3.115.0-windows-x64.zip",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.115.0/flutter-pos-odoo19-3.115.0-windows-x64.zip",
-      "sha256": "650099b264a0560e8a3121bc1a07ea5835a288cf696def5c889af9b44a371a93",
-      "size_bytes": 35466195
+      "name": "flutter-pos-odoo19-3.116.0-windows-x64.zip",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.116.0/flutter-pos-odoo19-3.116.0-windows-x64.zip",
+      "sha256": "ee4a639b38c6ea8cb28956485bef58901eb9eb4f8c3e208ae6b33ba8536bcd88",
+      "size_bytes": 35532209
     },
     "linux": {
-      "name": "flutter-pos-odoo19-3.115.0-linux-x64.tar.gz",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.115.0/flutter-pos-odoo19-3.115.0-linux-x64.tar.gz",
-      "sha256": "df011dd0d31c05b161d4123d287da0506e02be3866b1edf24fe50c612421d20f",
-      "size_bytes": 31478319
+      "name": "flutter-pos-odoo19-3.116.0-linux-x64.tar.gz",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.116.0/flutter-pos-odoo19-3.116.0-linux-x64.tar.gz",
+      "sha256": "d16cb46f4b2af67ede16d01ccec9d69993e6637cc7497a3e7666f3abc209cabc",
+      "size_bytes": 31548853
     },
     "android": {
-      "name": "flutter-pos-odoo19-3.115.0-android.apk",
-      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.115.0/flutter-pos-odoo19-3.115.0-android.apk",
-      "sha256": "094d29c9868770505c89831af74630db854ad6a7d5bf7b88c89702c4f4983b77",
-      "size_bytes": 158534394
+      "name": "flutter-pos-odoo19-3.116.0-android.apk",
+      "url": "https://github.com/KAD-org/flutter_pos-releases/releases/download/v19-3.116.0/flutter-pos-odoo19-3.116.0-android.apk",
+      "sha256": "8ddbbdd04d439caba4db8e1669e04e1da0a5d7be319cc5d89d7a8540772955a0",
+      "size_bytes": 159075822
     }
   }
 }
